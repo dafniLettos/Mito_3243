@@ -3,17 +3,17 @@
 ```
 git clone git@github.com:weizhouUMICH/SAIGE.git
 ```
+## Will be using docker image of tool
 ```
 docker pull wzhou88/saige:1.3.0
 ```
-## To mount data in the container
+To mount data in the container in an interactive session
 ```
 docker container run --rm -it -v .:/app/mydata 'wzhou88/saige:1.3.0' /bin/bash
 ```
-Interactive session...
 -------------------
 ### CREATING A SPARSE Genomic Relationship Matrix (GRM):
-#### Use hard-called filtered genotypes, after remoning individuals of non European ancestry
+Use hard-called filtered genotypes, after removing individuals of non European ancestry
 ```
 Starting with: 408 Individuals and 558,579 Markers 
 
@@ -46,7 +46,7 @@ Rscript ../usr/local/bin/createSparseGRM.R \
 ```
 
 ## SINGLE VARIANT ASSOCIATION TEST
-### Step 1: Fitting the null logistic/linear mixed model [2 separate analyses with different MAF cut-off]
+### Step 1: Fit the NULL model using two MAF cut-offs [MAF>0.01 and MAF>0.05]
 ```
 Rscript ../usr/local/bin/step1_fitNULLGLMM.R \
         --plinkFile=./mydata/output_data/Geno_Imputed/merged_imputed_FINAL2_maf0.01 \
@@ -63,14 +63,6 @@ Rscript ../usr/local/bin/step1_fitNULLGLMM.R \
         --LOCO=TRUE \
         --IsOverwriteVarianceRatioFile=TRUE
 ```
-Leave-one-chromosome-out is not applied
-384  samples have genotypes
-formula is  sle~age+het+sex 
-247  samples have non-missing phenotypes
-384  samples are in the sparse GRM
-247  samples who have non-missing phenotypes are also in the sparse GRM
-137  samples in geno file do not have phenotypes
-247  samples will be used for analysis 
 
 ```
 Rscript ../usr/local/bin/step1_fitNULLGLMM.R \
@@ -127,8 +119,7 @@ Rscript ../usr/local/bin/step2_SPAtests.R \
 ```
 ---------------------
 ## SET-BASED TEST
-### Step 1: Fitting the null logistic/linear mixed model
-If a a sparse GRM is used for fitting the null model and variance ratios were estimated with sparse and null GRMs, in Step 2, the sparse GRM (–sparseGRMFile, –sparseGRMSampleIDFile) and variance ratios (–varianceRatioFile) are used as input.
+### Step 1: Fitting the null logistic/linear mixed model [no MAF cut-off]
 ```
 Rscript ../usr/local/bin/step1_fitNULLGLMM.R \
         --plinkFile=./mydata/output_data/Geno_Imputed/merged_imputed_FINAL2 \
@@ -145,17 +136,8 @@ Rscript ../usr/local/bin/step1_fitNULLGLMM.R \
         --LOCO=TRUE \
         --IsOverwriteVarianceRatioFile=TRUE
 ```
-Leave-one-chromosome-out is not applied
-384  samples have genotypes
-formula is  sle~age+het+sex 
-247  samples have non-missing phenotypes
-384  samples are in the sparse GRM
-247  samples who have non-missing phenotypes are also in the sparse GRM
-137  samples in geno file do not have phenotypes
-247  samples will be used for analysis 
 
-
-### Create VCF files per chromosome and their .csi index files (to use in step 2)
+#### Create VCF files per chromosome and their .csi index files (to use in step 2)
 ```
 for i in {1..23}; do plink --bfile ./output_data/Geno_Imputed/merged_imputed_FINAL2 --chr "$i" --recode vcf-iid bgz --out ./output_data/Geno_Imputed/chr"$i"; done
 

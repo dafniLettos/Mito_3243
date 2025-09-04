@@ -1,0 +1,952 @@
+DEFB125	var	20:76771:C:T	20:76962:C:T	20:77013:C:T
+DEFB125	anno	missense	synonymous	synonymous
+DEFB126	var	20:126149:T:C
+DEFB126	anno	missense
+DEFB127	var	20:139456:G:A	20:139576:C:A
+DEFB127	anno	missense	missense
+DEFB128	var	20:168558:A:G	20:168728:A:T
+DEFB128	anno	missense	synonymous
+DEFB129	var	20:210048:T:C	20:210061:G:A	20:210306:C:G
+DEFB129	anno	missense	synonymous	missense
+DEFB132	var	20:239757:G:T	20:239881:C:T	20:239936:G:A	20:239937:T:C	20:239946:A:C
+DEFB132	anno	missense	synonymous	missense	missense	lof
+C20orf96	var	20:256727:A:T	20:257733:G:A	20:258970:C:T	20:259818:G:A	20:259969:C:G
+C20orf96	anno	synonymous	synonymous	lof	synonymous	synonymous
+ZCCHC3	var	20:278291:G:C	20:278806:C:T	20:279185:C:T
+ZCCHC3	anno	missense	synonymous	synonymous
+SOX12	var	20:306733:G:A	20:306958:C:T	20:307202:G:A	20:307249:G:A
+SOX12	anno	synonymous	synonymous	missense	synonymous
+NRSN2	var	20:330317:C:T	20:330408:C:G	20:333871:G:A	20:334027:G:A
+NRSN2	anno	synonymous	missense	synonymous	synonymous
+TRIB3	var	20:363213:G:A	20:368735:C:T	20:368761:G:A	20:368827:G:A	20:368905:A:G	20:371958:G:A	20:371972:C:T	20:372076:G:A	20:372097:G:A	20:376931:A:G	20:376933:G:A	20:377083:G:A	20:377226:C:T
+TRIB3	anno	synonymous	synonymous	missense	missense	missense	missense	synonymous	missense	missense	missense	missense	missense	synonymous
+RBCK1	var	20:390646:G:A	20:390652:C:T	20:391170:C:T
+RBCK1	anno	synonymous	synonymous	synonymous
+TBC1D20	var	20:419299:C:T	20:428553:T:C
+TBC1D20	anno	synonymous	missense
+CSNK2A1	var	20:468186:G:A
+CSNK2A1	anno	synonymous
+TCF15	var	20:585267:C:T	20:590456:G:A	20:590600:C:T
+TCF15	anno	missense	synonymous	synonymous
+SRXN1	var	20:633682:T:C	20:633815:T:C
+SRXN1	anno	missense	synonymous
+SCRT2	var	20:644765:G:T	20:644954:G:A	20:656181:G:A
+SCRT2	anno	synonymous	synonymous	missense
+SLC52A3	var	20:741847:G:A	20:744308:T:C	20:744382:G:A	20:744415:G:A	20:744450:G:A	20:744570:G:A	20:744615:G:A	20:745963:G:A	20:746080:G:A	20:746098:G:A	20:746197:G:C	20:746410:G:A
+SLC52A3	anno	synonymous	missense	missense	missense	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous	missense	synonymous
+FAM110A	var	20:825678:C:T	20:825965:C:A	20:825992:C:T	20:826127:C:T
+FAM110A	anno	synonymous	missense	missense	missense
+ANGPT4	var	20:854940:T:C	20:854973:T:G	20:858841:C:T	20:860426:G:A	20:870881:C:T	20:896753:T:G
+ANGPT4	anno	synonymous	synonymous	missense	synonymous	missense	synonymous
+RSPO4	var	20:944649:T:G	20:944702:G:A	20:944718:T:G	20:947909:C:T	20:948617:C:A	20:982796:T:G
+RSPO4	anno	missense	synonymous	missense	missense	missense	synonymous
+PSMF1	var	20:1099523:G:T	20:1108122:C:T	20:1115798:A:G	20:1115919:A:G	20:1143797:T:C
+PSMF1	anno	synonymous	synonymous	missense	missense	missense
+TMEM74B	var	20:1161558:G:A	20:1161976:C:T	20:1164424:C:T
+TMEM74B	anno	synonymous	missense	missense
+RAD21L1	var	20:1210647:C:T	20:1212186:A:G	20:1212260:T:C	20:1214814:C:A	20:1221038:T:C	20:1224774:A:C	20:1226928:T:C
+RAD21L1	anno	synonymous	synonymous	lof	synonymous	synonymous	missense	synonymous
+SNPH	var	20:1285549:G:A	20:1285933:G:A	20:1286057:G:T	20:1286091:A:G	20:1286662:G:A	20:1286684:G:A
+SNPH	anno	synonymous	synonymous	missense	missense	synonymous	missense
+SDCBP2	var	20:1292989:C:T	20:1293008:T:C	20:1293019:C:T	20:1293046:G:A	20:1293107:G:A	20:1293141:C:T	20:1293149:C:T	20:1293247:C:T	20:1293322:C:T	20:1294073:G:A	20:1300289:G:A
+SDCBP2	anno	missense	synonymous	missense	missense	synonymous	missense	synonymous	missense	missense	lof	synonymous
+FKBP1A	var	20:1350709:T:C
+FKBP1A	anno	synonymous
+NSFL1C	var	20:1426393:C:T	20:1426431:G:T	20:1433259:G:A	20:1433266:T:C	20:1444997:T:C
+NSFL1C	anno	missense	missense	missense	synonymous	synonymous
+SIRPB2	var	20:1456970:C:T	20:1459060:G:T	20:1459246:C:T	20:1460674:A:C
+SIRPB2	anno	missense	synonymous	missense	missense
+SIRPD	var	20:1532586:G:A	20:1532595:C:T	20:1532599:T:C	20:1538249:C:T	20:1538266:G:A	20:1538279:T:A
+SIRPD	anno	missense	synonymous	synonymous	synonymous	synonymous	synonymous
+SIRPB1	var	20:1546805:G:A	20:1546911:G:C	20:1551485:T:C	20:1551564:T:C	20:1552430:C:T	20:1552457:G:A	20:1552528:C:T	20:1559135:T:G	20:1559233:C:A	20:1559259:C:T	20:1585397:T:C	20:1592048:G:C	20:1592114:T:C	20:1600524:T:C	20:1600537:C:T
+SIRPB1	anno	missense	synonymous	synonymous	missense	synonymous	synonymous	missense	missense	missense	missense	missense	missense	missense	missense	synonymous
+SIRPG	var	20:1610894:G:A	20:1610918:T:A	20:1610939:A:G	20:1615959:C:T	20:1616137:G:A	20:1616206:G:A	20:1616892:A:G	20:1616895:G:A	20:1617069:A:G	20:1629906:C:T	20:1629967:G:A	20:1638293:A:T
+SIRPG	anno	synonymous	synonymous	synonymous	synonymous	missense	synonymous	synonymous	synonymous	synonymous	synonymous	missense	missense
+SIRPA	var	20:1895889:G:C	20:1896100:C:T	20:1903275:C:T	20:1918143:C:T
+SIRPA	anno	missense	synonymous	synonymous	missense
+PDYN	var	20:1961134:A:G	20:1961159:T:A	20:1961298:T:G
+PDYN	anno	synonymous	missense	missense
+STK35	var	20:2082732:C:G	20:2082767:G:A	20:2082781:G:C	20:2083467:G:A	20:2097688:T:C
+STK35	anno	missense	synonymous	missense	synonymous	synonymous
+TGM3	var	20:2290333:A:C	20:2290843:G:A	20:2291722:A:C	20:2297790:G:A	20:2312766:C:T	20:2321105:C:G	20:2321163:C:T
+TGM3	anno	synonymous	synonymous	missense	missense	synonymous	synonymous	missense
+TGM6	var	20:2375132:G:A	20:2375262:G:A	20:2376080:C:A	20:2377204:C:T	20:2380323:G:A	20:2384236:G:A	20:2384259:G:A	20:2384267:C:T	20:2384349:G:A	20:2397883:C:T	20:2397993:C:T	20:2398017:G:A	20:2398197:C:T	20:2413136:C:T	20:2413163:G:C
+TGM6	anno	synonymous	synonymous	missense	synonymous	synonymous	missense	missense	synonymous	missense	missense	synonymous	synonymous	synonymous	missense	missense
+ZNF343	var	20:2463895:T:A	20:2464112:T:C	20:2464234:G:A	20:2464353:A:G	20:2464984:T:C	20:2465304:T:A
+ZNF343	anno	missense	missense	missense	synonymous	missense	lof
+TMC2	var	20:2539387:A:G	20:2552884:A:G	20:2559795:T:C	20:2559827:C:T	20:2591232:C:T	20:2593863:T:C	20:2597716:A:T	20:2597829:C:T	20:2618140:C:T
+TMC2	anno	synonymous	missense	missense	synonymous	synonymous	synonymous	lof	synonymous	synonymous
+NOP56	var	20:2633936:C:T	20:2635212:A:G	20:2635504:T:C	20:2636036:G:A	20:2637071:C:T	20:2638579:T:C	20:2638727:G:A
+NOP56	anno	synonymous	missense	synonymous	missense	synonymous	missense	synonymous
+IDH3B	var	20:2639144:A:G	20:2639162:T:C
+IDH3B	anno	missense	missense
+EBF4	var	20:2732870:G:T	20:2736390:G:A	20:2739583:T:C	20:2739620:T:A
+EBF4	anno	missense	missense	synonymous	missense
+CPXM1	var	20:2774910:G:A	20:2775016:G:A	20:2776527:G:A	20:2776975:C:T	20:2777917:G:A	20:2777921:C:T	20:2779478:C:T	20:2781100:G:A
+CPXM1	anno	synonymous	synonymous	missense	missense	synonymous	missense	synonymous	missense
+C20orf141	var	20:2795864:C:T	20:2796007:G:A	20:2796081:T:G
+C20orf141	anno	missense	synonymous	missense
+TMEM239	var	20:2797015:A:G	20:2797325:C:T	20:2797465:C:T	20:2797635:C:T
+TMEM239	anno	synonymous	missense	synonymous	synonymous
+PCED1A	var	20:2816205:C:T	20:2816292:G:A	20:2816327:A:G	20:2816807:G:A	20:2816821:C:T	20:2820493:C:A
+PCED1A	anno	missense	missense	synonymous	missense	synonymous	missense
+VPS16	var	20:2840773:C:T	20:2840929:G:A	20:2841495:G:A	20:2841618:G:A	20:2843727:A:G	20:2843961:C:T	20:2844679:G:A	20:2844911:C:T	20:2845039:C:T	20:2845214:G:A	20:2846052:T:C	20:2846129:C:G
+VPS16	anno	synonymous	synonymous	missense	synonymous	missense	synonymous	missense	synonymous	synonymous	missense	missense	synonymous
+PTPRA	var	20:2945759:C:T	20:2967430:G:A	20:2968722:G:A	20:2969015:C:G	20:2969081:A:G	20:2996497:C:T	20:3007828:C:T	20:3008448:C:T
+PTPRA	anno	missense	synonymous	missense	synonymous	synonymous	synonymous	synonymous	synonymous
+GNRH2	var	20:3025107:C:T	20:3025330:G:A
+GNRH2	anno	missense	missense
+MRPS26	var	20:3028412:A:C	20:3028446:C:T
+MRPS26	anno	missense	synonymous
+AVP	var	20:3063296:C:T
+AVP	anno	missense
+UBOX5	var	20:3090848:T:G	20:3090884:C:A	20:3090942:A:G
+UBOX5	anno	missense	missense	missense
+FASTKD5	var	20:3127441:A:G	20:3127579:T:C	20:3127659:G:C	20:3128403:T:C	20:3128578:A:C	20:3128854:A:G	20:3128997:A:G
+FASTKD5	anno	missense	missense	synonymous	synonymous	missense	missense	synonymous
+LZTS3	var	20:3146550:C:T	20:3146733:T:G	20:3147411:C:T	20:3147468:G:A	20:3147531:G:A	20:3147561:C:T	20:3147744:G:A
+LZTS3	anno	missense	missense	synonymous	synonymous	synonymous	synonymous	synonymous
+DDRGK1	var	20:3171337:C:T	20:3175976:G:A	20:3180666:C:A	20:3180713:G:A
+DDRGK1	anno	missense	synonymous	missense	synonymous
+ITPA	var	20:3193842:C:A	20:3193844:A:G	20:3193978:G:A	20:3195941:A:G	20:3204063:G:A	20:3204084:G:A	20:3204154:G:T
+ITPA	anno	missense	synonymous	synonymous	missense	missense	missense	synonymous
+SLC4A11	var	20:3209012:C:T	20:3209353:C:G	20:3209615:G:A	20:3210056:G:A	20:3210190:G:C	20:3210301:G:A	20:3211235:C:T	20:3212031:G:A	20:3214581:C:T	20:3214799:C:G	20:3214819:T:G	20:3214895:C:T	20:3218563:T:C	20:3218602:G:A	20:3218634:C:G
+SLC4A11	anno	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous	missense	synonymous	missense	synonymous	synonymous	missense	missense	synonymous
+C20orf194	var	20:3235916:T:C	20:3236756:C:T	20:3275239:G:A	20:3277512:T:G	20:3277530:A:G	20:3278682:G:A	20:3278720:C:G	20:3285126:A:T	20:3285140:C:T	20:3285146:G:C	20:3321244:T:C	20:3356912:C:T	20:3362033:T:C
+C20orf194	anno	synonymous	missense	synonymous	synonymous	synonymous	synonymous	missense	synonymous	synonymous	missense	synonymous	synonymous	synonymous
+ATRN	var	20:3452041:C:T	20:3515924:G:A	20:3515951:C:T	20:3515983:A:T	20:3527996:C:G	20:3540077:C:T	20:3541382:T:C	20:3562780:A:C	20:3562866:A:G	20:3562969:A:G	20:3564672:T:C	20:3565356:T:G	20:3577062:G:A	20:3624830:G:A	20:3624848:C:T
+ATRN	anno	missense	synonymous	synonymous	missense	missense	missense	missense	lof	missense	missense	synonymous	missense	missense	synonymous	synonymous
+GFRA4	var	20:3640823:T:C	20:3641464:G:A	20:3641528:C:A	20:3641542:G:A	20:3641881:C:T
+GFRA4	anno	synonymous	missense	missense	synonymous	synonymous
+ADAM33	var	20:3649949:G:T	20:3650205:G:A	20:3650234:A:G	20:3650245:G:A	20:3650257:G:A	20:3651742:C:G	20:3651765:C:T	20:3652365:T:C	20:3652835:A:G	20:3653495:G:A	20:3654433:C:T	20:3655219:T:C
+ADAM33	anno	missense	missense	missense	synonymous	synonymous	synonymous	missense	missense	missense	missense	synonymous	missense
+SIGLEC1	var	20:3669165:T:G	20:3670899:G:A	20:3672046:C:T	20:3672056:T:G	20:3672123:G:A	20:3672240:G:A	20:3672647:C:T	20:3672836:G:A	20:3673721:G:A	20:3674309:C:T	20:3675136:G:A	20:3675333:A:G	20:3675498:G:T	20:3677357:C:T	20:3677736:G:T	20:3678476:G:A	20:3679928:G:A	20:3679943:C:T	20:3680105:G:A	20:3682011:A:G	20:3682126:C:T	20:3682149:G:A	20:3682242:C:T	20:3682275:G:A	20:3684022:G:A	20:3684729:C:T	20:3686436:T:C	20:3686512:G:A	20:3687141:C:A
+SIGLEC1	anno	missense	missense	missense	missense	synonymous	synonymous	synonymous	synonymous	missense	missense	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous	missense	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous	lof
+HSPA12B	var	20:3719336:G:A	20:3721485:G:C	20:3721545:C:A	20:3726565:C:T	20:3726664:G:A	20:3731529:C:A	20:3732225:G:A	20:3732265:G:T	20:3732633:T:C
+HSPA12B	anno	synonymous	missense	missense	synonymous	missense	synonymous	synonymous	missense	synonymous
+C20orf27	var	20:3735069:G:A	20:3736173:C:T
+C20orf27	anno	synonymous	missense
+SPEF1	var	20:3759439:C:T
+SPEF1	anno	missense
+CENPB	var	20:3765373:G:A	20:3765547:G:A	20:3765655:G:C	20:3767104:C:T
+CENPB	anno	synonymous	synonymous	synonymous	synonymous
+CDC25B	var	20:3777220:C:T	20:3777289:T:C	20:3782576:C:T	20:3782702:G:A	20:3783764:C:T	20:3784110:C:T	20:3785297:C:T
+CDC25B	anno	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous
+AP5S1	var	20:3804755:G:A
+AP5S1	anno	synonymous
+MAVS	var	20:3838441:C:G	20:3842984:C:T	20:3843027:C:A	20:3844929:C:T	20:3846397:C:T	20:3846662:C:T
+MAVS	anno	missense	synonymous	missense	missense	missense	synonymous
+PANK2	var	20:3870023:G:A	20:3870079:T:A	20:3870124:C:G	20:3870266:C:G
+PANK2	anno	synonymous	missense	synonymous	synonymous
+SMOX	var	20:4158164:C:A	20:4162978:C:T	20:4163242:C:T	20:4163302:G:A	20:4163374:G:T	20:4163461:C:T	20:4164283:G:A
+SMOX	anno	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous
+ADRA1D	var	20:4202290:G:A	20:4202315:C:G	20:4228735:C:T	20:4228763:G:A	20:4229218:G:A	20:4229558:G:C
+ADRA1D	anno	synonymous	missense	synonymous	missense	synonymous	missense
+PRNP	var	20:4680112:A:G	20:4680118:T:C	20:4680217:A:G	20:4680251:A:G	20:4680472:C:T
+PRNP	anno	missense	missense	synonymous	missense	synonymous
+PRND	var	20:4705274:C:T	20:4705364:C:T	20:4705718:C:T
+PRND	anno	missense	missense	missense
+RASSF2	var	20:4768282:G:A	20:4768378:G:A	20:4770275:T:G	20:4776526:G:A	20:4778702:T:C
+RASSF2	anno	synonymous	synonymous	synonymous	synonymous	missense
+SLC23A2	var	20:4843470:C:A	20:4854682:A:G	20:4855309:G:A	20:4855333:G:T	20:4864419:G:A	20:4880308:G:A	20:4893595:G:A
+SLC23A2	anno	synonymous	synonymous	synonymous	missense	synonymous	synonymous	synonymous
+TMEM230	var	20:5049842:G:T	20:5086915:T:C	20:5086918:G:A	20:5086939:A:T
+TMEM230	anno	missense	synonymous	synonymous	synonymous
+PCNA	var	20:5096099:G:C
+PCNA	anno	synonymous
+CDS2	var	20:5166418:G:A	20:5169799:C:T
+CDS2	anno	synonymous	synonymous
+PROKR2	var	20:5282719:G:T	20:5282731:G:A	20:5282850:C:T	20:5283256:G:C	20:5283316:G:C	20:5283323:A:C	20:5283376:G:A	20:5294641:G:A	20:5294762:C:T
+PROKR2	anno	synonymous	synonymous	missense	synonymous	synonymous	missense	synonymous	synonymous	missense
+GPCPD1	var	20:5547384:C:T	20:5556512:G:A	20:5559143:G:A
+GPCPD1	anno	missense	missense	synonymous
+SHLD1	var	20:5753579:C:T	20:5843710:C:T	20:5843761:A:G	20:5843812:T:C	20:5843952:G:A
+SHLD1	anno	missense	synonymous	synonymous	synonymous	missense
+CHGB	var	20:5896996:A:G	20:5903067:T:A	20:5903069:G:A	20:5903141:G:C	20:5903192:G:A	20:5903223:G:A	20:5903323:G:A	20:5903388:A:C	20:5903485:G:A	20:5903517:G:A	20:5903848:C:G	20:5903894:A:G	20:5903932:G:T	20:5904028:C:T	20:5904040:G:A	20:5904289:G:A	20:5904743:C:T
+CHGB	anno	missense	missense	synonymous	missense	synonymous	missense	missense	missense	missense	synonymous	missense	synonymous	missense	missense	missense	missense	synonymous
+TRMT6	var	20:5923203:T:C	20:5923204:T:C	20:5924640:G:A	20:5924828:A:G
+TRMT6	anno	synonymous	missense	missense	synonymous
+MCM8	var	20:5933108:C:A	20:5933119:G:A	20:5935303:A:C	20:5935825:A:G	20:5939214:A:C	20:5943956:G:C	20:5948227:G:A	20:5948540:T:C	20:5948542:G:A	20:5953260:G:T	20:5953815:A:G	20:5953833:A:G	20:5963747:A:G	20:5966626:G:T	20:5966763:A:G	20:5967973:G:A	20:5974265:A:G
+MCM8	anno	missense	synonymous	missense	missense	synonymous	missense	missense	synonymous	missense	missense	synonymous	synonymous	missense	missense	missense	missense	missense
+CRLS1	var	20:5986950:G:A	20:5986989:G:A	20:6011934:C:T
+CRLS1	anno	missense	missense	missense
+LRRN4	var	20:6021768:C:A	20:6022103:C:T	20:6022246:A:T	20:6022469:G:A	20:6022598:G:A	20:6022657:C:T	20:6022851:C:T	20:6031509:T:C	20:6031598:C:T	20:6032882:C:T	20:6032927:C:T	20:6033004:G:A	20:6033020:C:T	20:6033025:T:C	20:6033033:G:A
+LRRN4	anno	missense	synonymous	missense	synonymous	synonymous	missense	missense	missense	synonymous	synonymous	synonymous	missense	synonymous	missense	missense
+FERMT1	var	20:6057970:G:A	20:6064710:A:G	20:6064731:C:T	20:6064805:C:T	20:6065729:C:T	20:6065731:T:C	20:6065890:C:T	20:6065922:C:T	20:6069723:G:A	20:6077624:G:A	20:6078246:C:T	20:6088265:G:A	20:6090969:A:G	20:6093177:A:G	20:6096609:G:A	20:6096632:G:A	20:6100088:A:G
+FERMT1	anno	synonymous	synonymous	synonymous	missense	missense	synonymous	synonymous	missense	synonymous	synonymous	synonymous	missense	missense	missense	synonymous	synonymous	synonymous
+BMP2	var	20:6750882:T:G	20:6751034:G:A	20:6759115:T:A	20:6759706:C:T
+BMP2	anno	missense	synonymous	synonymous	synonymous
+HAO1	var	20:7864284:T:C	20:7866376:T:C	20:7886834:A:G	20:7920986:C:T
+HAO1	anno	missense	missense	missense	synonymous
+TMX4	var	20:7963041:C:T	20:7964476:T:C	20:7967980:G:C	20:7980390:C:T	20:8000171:G:A
+TMX4	anno	missense	missense	synonymous	synonymous	synonymous
+PLCB1	var	20:8130943:C:T	20:8665640:A:G	20:8689379:G:A	20:8717713:G:A	20:8717822:C:G	20:8722171:A:G	20:8737734:G:A	20:8755222:G:A	20:8755243:C:T	20:8769293:T:C	20:8770822:C:T	20:8862395:C:T
+PLCB1	anno	synonymous	synonymous	synonymous	synonymous	missense	missense	synonymous	synonymous	synonymous	synonymous	synonymous	missense
+PLCB4	var	20:9288522:A:G	20:9374275:A:G	20:9388665:C:T	20:9424868:C:A	20:9434049:A:G
+PLCB4	anno	synonymous	missense	synonymous	missense	missense
+LAMP5	var	20:9496716:C:G	20:9498856:A:G	20:9498863:G:T
+LAMP5	anno	missense	synonymous	missense
+PAK5	var	20:9520133:G:A	20:9520142:G:A	20:9523244:C:T	20:9543622:C:T	20:9546554:G:A	20:9547018:C:G	20:9560814:T:C	20:9561134:C:T	20:9561429:C:T
+PAK5	anno	synonymous	synonymous	missense	missense	synonymous	missense	missense	synonymous	missense
+ANKEF1	var	20:10019093:G:A	20:10030188:T:A	20:10030452:G:A	20:10032413:T:G	20:10036202:G:A
+ANKEF1	anno	synonymous	missense	missense	synonymous	missense
+SNAP25	var	20:10277621:C:T
+SNAP25	anno	synonymous
+MKKS	var	20:10386013:C:A	20:10386059:G:A	20:10386146:C:T	20:10393439:C:A	20:10393629:G:A	20:10394046:G:A	20:10394096:T:C
+MKKS	anno	missense	missense	missense	missense	synonymous	synonymous	missense
+SLX4IP	var	20:10541462:T:C	20:10579398:C:T	20:10603326:A:G	20:10603750:G:A
+SLX4IP	anno	synonymous	missense	missense	missense
+JAG1	var	20:10620275:G:A	20:10620386:G:A	20:10622246:G:A	20:10622501:G:C	20:10624502:G:A	20:10625624:C:T	20:10625804:T:G	20:10632861:G:A	20:10633237:G:A	20:10637057:T:C	20:10639222:G:A	20:10653469:C:T
+JAG1	anno	synonymous	synonymous	synonymous	missense	synonymous	missense	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous
+BTBD3	var	20:11900442:G:A	20:11903654:G:A	20:11904158:G:A
+BTBD3	anno	missense	synonymous	synonymous
+SPTLC3	var	20:13053018:G:T	20:13053035:G:A	20:13071816:C:T	20:13134674:C:T	20:13134768:T:C	20:13140720:G:A	20:13145506:G:A
+SPTLC3	anno	synonymous	synonymous	synonymous	missense	synonymous	missense	missense
+ISM1	var	20:13251316:T:C	20:13251325:C:T	20:13260480:C:G	20:13269200:C:A	20:13269248:C:T
+ISM1	anno	missense	missense	missense	synonymous	synonymous
+TASP1	var	20:13398143:C:T	20:13514699:C:T	20:13567973:C:A
+TASP1	anno	synonymous	synonymous	synonymous
+ESF1	var	20:13695607:T:G	20:13695680:C:T	20:13698091:A:G	20:13698129:G:A	20:13714384:A:C	20:13747441:G:A	20:13756539:C:A	20:13756792:T:C
+ESF1	anno	missense	synonymous	missense	synonymous	missense	synonymous	missense	synonymous
+NDUFAF5	var	20:13765897:G:C	20:13775557:A:G	20:13779113:T:C	20:13782194:C:T	20:13797179:G:A
+NDUFAF5	anno	synonymous	missense	synonymous	synonymous	synonymous
+SEL1L2	var	20:13830137:A:C	20:13830179:G:A	20:13830867:C:T	20:13830939:G:A	20:13847420:G:A	20:13850169:T:G	20:13869131:T:C	20:13899681:T:A	20:13912308:C:T	20:13912309:G:A	20:13912343:T:C
+SEL1L2	anno	missense	synonymous	synonymous	synonymous	synonymous	missense	missense	missense	missense	missense	synonymous
+MACROD2	var	20:14066276:C:T	20:15967390:C:T
+MACROD2	anno	missense	missense
+FLRT3	var	20:14306773:T:G	20:14306896:G:A	20:14306953:G:T	20:14307019:T:G	20:14307024:C:T	20:14307049:A:G	20:14307205:T:A	20:14307322:A:G
+FLRT3	anno	missense	synonymous	missense	missense	missense	synonymous	synonymous	synonymous
+KIF16B	var	20:16253909:C:T	20:16254024:G:A	20:16347868:C:T	20:16347929:C:A	20:16348123:A:G	20:16348166:G:A	20:16348172:C:T	20:16348291:T:G	20:16352316:C:T	20:16352344:C:T	20:16352401:T:C	20:16354949:C:A	20:16359472:C:T	20:16359567:G:A	20:16359627:C:T	20:16359650:C:T	20:16360177:G:T	20:16360219:C:T	20:16360240:G:A	20:16360410:A:T	20:16360654:T:C	20:16385488:T:G	20:16410559:A:T	20:16486698:G:A	20:16493533:T:C	20:16496299:G:A
+KIF16B	anno	missense	synonymous	missense	missense	missense	synonymous	synonymous	missense	synonymous	missense	missense	missense	missense	synonymous	missense	synonymous	missense	missense	missense	missense	missense	missense	synonymous	synonymous	synonymous	missense
+OTOR	var	20:16729048:T:C	20:16729138:T:C	20:16729555:G:T	20:16730640:G:A
+OTOR	anno	lof	missense	synonymous	synonymous
+PCSK2	var	20:17410116:C:T	20:17417513:C:T	20:17434572:C:T	20:17434581:A:G	20:17446040:C:T
+PCSK2	anno	synonymous	synonymous	synonymous	synonymous	synonymous
+BFSP1	var	20:17474791:G:A	20:17474942:G:A	20:17474968:C:T	20:17474973:C:T	20:17475217:C:T	20:17477592:C:T	20:17479534:G:A	20:17479617:G:A	20:17511868:G:A	20:17511869:C:A
+BFSP1	anno	synonymous	missense	synonymous	missense	synonymous	missense	missense	synonymous	missense	missense
+RRBP1	var	20:17596129:G:A	20:17596155:C:A	20:17596582:C:T	20:17597482:G:A	20:17600357:A:G	20:17600972:A:C	20:17602571:A:G	20:17605269:C:T	20:17606220:C:T	20:17608170:C:T	20:17610535:C:T	20:17614179:G:A	20:17639366:T:C	20:17639934:T:A	20:17641045:C:T
+RRBP1	anno	missense	missense	missense	synonymous	synonymous	missense	missense	synonymous	synonymous	synonymous	synonymous	missense	missense	missense	synonymous
+BANF2	var	20:17705677:G:A	20:17705793:T:C	20:17716416:C:G
+BANF2	anno	synonymous	synonymous	missense
+SNX5	var	20:17929585:C:T	20:17930836:T:C	20:17932210:C:T
+SNX5	anno	synonymous	missense	synonymous
+MGME1	var	20:17949785:G:C	20:17950545:A:T	20:17950588:C:G	20:17950772:A:G	20:17956347:C:T	20:17968871:C:T	20:17968923:T:C
+MGME1	anno	lof	missense	missense	synonymous	missense	missense	synonymous
+OVOL2	var	20:18005424:G:T	20:18022362:G:T	20:18037313:T:A	20:18038203:T:C
+OVOL2	anno	missense	synonymous	missense	missense
+PET117	var	20:18118662:C:T
+PET117	anno	synonymous
+KAT14	var	20:18119089:G:T	20:18131563:T:C	20:18142462:A:G	20:18142564:A:G	20:18143117:G:T	20:18143315:A:G	20:18143355:C:T	20:18143417:C:T	20:18162405:T:A	20:18162481:C:G	20:18163863:C:T	20:18167953:C:T	20:18167977:C:T
+KAT14	anno	lof	synonymous	lof	synonymous	synonymous	missense	synonymous	missense	missense	missense	synonymous	synonymous	synonymous
+ZNF133	var	20:18295730:C:T	20:18295861:G:A	20:18295980:C:T	20:18296076:G:A	20:18296473:C:T	20:18297193:T:C	20:18297375:C:T
+ZNF133	anno	missense	synonymous	missense	missense	synonymous	synonymous	missense
+DZANK1	var	20:18393312:G:C	20:18393499:T:C	20:18395988:C:T	20:18414309:C:T	20:18414356:G:A	20:18424012:G:A	20:18424032:G:C	20:18433334:G:C	20:18433335:T:C	20:18445963:G:A	20:18446020:C:A
+DZANK1	anno	synonymous	lof	missense	missense	synonymous	synonymous	missense	missense	missense	synonymous	lof
+POLR3F	var	20:18454050:C:T	20:18462379:C:T	20:18462421:G:A
+POLR3F	anno	synonymous	synonymous	synonymous
+RBBP9	var	20:18477732:A:C
+RBBP9	anno	missense
+SEC23B	var	20:18505200:G:T	20:18506512:C:T	20:18511412:T:C	20:18513350:G:A	20:18513372:C:T	20:18523002:C:G	20:18529318:A:G
+SEC23B	anno	missense	missense	missense	missense	missense	missense	synonymous
+DTD1	var	20:18576652:T:C	20:18576801:G:A	20:18576855:C:T
+DTD1	anno	missense	missense	missense
+SCP2D1	var	20:18794463:T:A	20:18794714:C:T	20:18794754:C:T	20:18794791:C:T
+SCP2D1	anno	missense	synonymous	missense	missense
+SLC24A3	var	20:19261606:T:C	20:19261623:G:A	20:19261696:C:T	20:19560664:A:G	20:19565671:G:A	20:19565693:G:A	20:19634732:A:G	20:19634743:C:G	20:19634747:C:T	20:19662560:G:A	20:19698205:G:A
+SLC24A3	anno	missense	missense	missense	synonymous	synonymous	missense	synonymous	missense	synonymous	missense	missense
+RIN2	var	20:19867384:C:T	20:19915770:G:A	20:19937312:G:A	20:19941367:C:T	20:19941419:C:T	20:19951534:T:A	20:19951549:G:A	20:19955473:C:T	20:19955713:G:C	20:19956007:G:C	20:19956094:C:A	20:19956311:G:A	20:19970705:C:T	20:19970804:G:A	20:19970853:G:A	20:19970888:G:A	20:19981393:A:T
+RIN2	anno	missense	missense	missense	synonymous	missense	missense	missense	synonymous	synonymous	synonymous	synonymous	missense	synonymous	synonymous	missense	synonymous	missense
+NAA20	var	20:20006368:T:C
+NAA20	anno	synonymous
+CRNKL1	var	20:20029132:A:G	20:20030063:T:C	20:20032998:T:C	20:20033137:A:T	20:20033198:C:T	20:20033223:A:T	20:20033242:A:T	20:20033316:G:A	20:20033319:A:G	20:20033322:G:A	20:20033367:C:G	20:20033380:A:G
+CRNKL1	anno	missense	missense	missense	synonymous	missense	missense	synonymous	missense	missense	lof	missense	synonymous
+CFAP61	var	20:20037441:G:C	20:20055851:G:A	20:20071521:T:A	20:20071529:A:G	20:20071585:G:A	20:20079360:A:G	20:20144772:A:G	20:20150027:C:T	20:20150030:C:T	20:20208971:G:A	20:20232356:C:T	20:20257958:C:T	20:20269312:T:C	20:20269545:G:A	20:20270952:C:A	20:20340872:A:G
+CFAP61	anno	lof	synonymous	missense	missense	missense	missense	synonymous	synonymous	synonymous	missense	synonymous	synonymous	synonymous	missense	missense	missense
+RALGAPA2	var	20:20475809:G:A	20:20484043:A:G	20:20493222:G:A	20:20493550:T:C	20:20493783:A:G	20:20506950:G:A	20:20563861:G:T	20:20599985:C:T	20:20610111:G:A	20:20620529:T:C	20:20634177:T:C
+RALGAPA2	anno	synonymous	synonymous	synonymous	missense	synonymous	synonymous	missense	missense	missense	missense	missense
+XRN2	var	20:21284236:T:C	20:21307162:G:T	20:21327163:G:C	20:21349188:G:A
+XRN2	anno	synonymous	missense	missense	synonymous
+NKX2-4	var	20:21376894:G:A	20:21376915:G:C	20:21377712:C:G
+NKX2-4	anno	synonymous	synonymous	missense
+NKX2-2	var	20:21493018:C:G	20:21494184:C:T
+NKX2-2	anno	missense	missense
+PAX1	var	20:21687305:C:T	20:21687344:G:A	20:21689973:G:C	20:21695194:C:T	20:21695347:C:T	20:21695356:C:T	20:21695381:G:C
+PAX1	anno	synonymous	synonymous	synonymous	missense	missense	missense	synonymous
+FOXA2	var	20:22562674:C:T	20:22563025:T:C	20:22563520:C:G	20:22563571:G:A
+FOXA2	anno	synonymous	synonymous	synonymous	synonymous
+SSTR4	var	20:23016148:G:T	20:23016171:G:C	20:23016750:C:A	20:23016780:C:T	20:23016819:C:T	20:23016850:C:T	20:23016970:T:G	20:23017017:T:C	20:23017044:C:T	20:23017082:T:C
+SSTR4	anno	missense	synonymous	synonymous	synonymous	synonymous	missense	missense	synonymous	synonymous	missense
+THBD	var	20:23028659:G:A	20:23028724:G:A	20:23029050:C:T
+THBD	anno	missense	missense	synonymous
+CD93	var	20:23064912:T:C	20:23065209:A:G	20:23065342:G:A	20:23065486:C:T	20:23065584:C:T	20:23065733:C:T	20:23065879:G:A	20:23066338:G:C
+CD93	anno	missense	synonymous	synonymous	synonymous	missense	missense	synonymous	synonymous
+NXT1	var	20:23334735:G:A	20:23334781:C:T
+NXT1	anno	synonymous	synonymous
+GZF1	var	20:23345069:C:T	20:23345844:A:C	20:23345950:G:A	20:23350790:C:T
+GZF1	anno	synonymous	missense	synonymous	missense
+NAPB	var	20:23375624:T:C	20:23377815:G:A
+NAPB	anno	missense	synonymous
+CSTL1	var	20:23421079:A:G	20:23421101:G:A	20:23424613:T:C	20:23424638:C:T	20:23424660:G:C
+CSTL1	anno	missense	missense	missense	missense	synonymous
+CST11	var	20:23432528:A:G	20:23433317:C:T
+CST11	anno	synonymous	synonymous
+CST8	var	20:23472391:G:A	20:23472415:C:T	20:23473635:C:T
+CST8	anno	synonymous	synonymous	missense
+CST9L	var	20:23546639:T:G	20:23546709:C:T	20:23546722:C:T
+CST9L	anno	missense	missense	synonymous
+CST9	var	20:23586257:A:C	20:23586360:A:G	20:23586366:T:C
+CST9	anno	missense	synonymous	missense
+CST3	var	20:23618427:C:T	20:23618488:G:A
+CST3	anno	missense	synonymous
+CST4	var	20:23666588:G:A	20:23666606:C:T	20:23667779:C:T	20:23669451:G:A	20:23669488:T:C	20:23669584:A:T	20:23669598:C:T
+CST4	anno	synonymous	synonymous	synonymous	synonymous	missense	missense	synonymous
+CST1	var	20:23729759:C:G	20:23731385:T:C	20:23731412:G:A	20:23731426:C:T	20:23731494:G:A
+CST1	anno	missense	missense	missense	synonymous	synonymous
+CST2	var	20:23804662:C:T	20:23804663:T:A	20:23805946:C:A	20:23805953:C:T	20:23807093:G:A
+CST2	anno	missense	missense	synonymous	missense	missense
+CST5	var	20:23858216:C:T	20:23860178:A:G
+CST5	anno	missense	missense
+GGTLC1	var	20:23965995:A:T	20:23966316:T:C	20:23967096:G:C	20:23967240:G:A
+GGTLC1	anno	missense	synonymous	synonymous	synonymous
+SYNDIG1	var	20:24523893:G:A	20:24524177:C:T
+SYNDIG1	anno	missense	synonymous
+CST7	var	20:24939590:G:C
+CST7	anno	synonymous
+APMAP	var	20:24944483:G:A	20:24944559:C:T	20:24944580:G:A	20:24950874:T:C	20:24952135:C:T	20:24952147:G:A	20:24964558:T:C	20:24973247:C:A
+APMAP	anno	missense	missense	missense	synonymous	missense	missense	missense	synonymous
+ACSS1	var	20:24994194:G:A	20:24994275:G:A	20:24994289:C:T	20:24994614:C:T	20:25000683:C:T	20:25000734:G:A	20:25003705:A:C	20:25011423:T:C	20:25038484:G:T	20:25038485:G:T	20:25038553:A:T	20:25038571:G:C	20:25038711:C:A	20:25038713:C:T
+ACSS1	anno	synonymous	synonymous	missense	missense	synonymous	synonymous	synonymous	synonymous	synonymous	missense	missense	synonymous	missense	missense
+VSX1	var	20:25058398:T:C	20:25059381:A:T	20:25059442:C:T	20:25059546:T:C	20:25060096:C:T	20:25060101:G:C	20:25060143:G:C	20:25062342:G:T	20:25062394:G:A	20:25062559:C:A	20:25062715:C:A
+VSX1	anno	missense	synonymous	missense	synonymous	missense	synonymous	missense	missense	synonymous	synonymous	synonymous
+ENTPD6	var	20:25176855:G:C	20:25187213:G:A	20:25187224:C:A	20:25187724:G:A	20:25187856:G:A	20:25193949:G:A	20:25195509:G:A	20:25203612:T:C	20:25205826:G:A
+ENTPD6	anno	missense	missense	missense	missense	missense	synonymous	synonymous	missense	synonymous
+PYGB	var	20:25228902:A:C	20:25228984:C:G	20:25255338:C:T	20:25259006:G:T	20:25260931:A:G	20:25261605:C:T	20:25261667:A:G	20:25262769:G:A	20:25263895:C:T	20:25264814:T:C	20:25269061:G:C	20:25273245:A:G	20:25276297:G:A	20:25277119:C:T
+PYGB	anno	missense	missense	synonymous	missense	synonymous	synonymous	missense	missense	synonymous	synonymous	missense	missense	synonymous	synonymous
+ABHD12	var	20:25275621:T:C	20:25282944:A:G	20:25282967:C:T	20:25288632:A:G
+ABHD12	anno	synonymous	synonymous	missense	synonymous
+GINS1	var	20:25398748:C:T	20:25398790:G:A
+GINS1	anno	missense	missense
+NINL	var	20:25434139:C:T	20:25436372:C:T	20:25439036:G:A	20:25442190:G:C	20:25443177:T:G	20:25456698:C:T	20:25456888:A:G	20:25457022:T:C	20:25457023:G:A	20:25457428:C:G	20:25459603:C:T	20:25459660:T:C	20:25459749:C:T	20:25459764:T:G	20:25462666:C:T	20:25472059:C:T	20:25472134:C:T	20:25477427:C:T	20:25478962:G:A	20:25484623:G:A	20:25485604:C:T
+NINL	anno	missense	synonymous	missense	missense	missense	missense	synonymous	missense	synonymous	synonymous	synonymous	synonymous	missense	synonymous	missense	synonymous	synonymous	synonymous	synonymous	missense	missense
+ZNF337	var	20:25655849:C:T	20:25656627:C:G	20:25666642:C:T	20:25666672:C:T	20:25666720:G:A	20:25666737:C:T
+ZNF337	anno	missense	missense	synonymous	synonymous	synonymous	missense
+DEFB116	var	20:29891119:G:A	20:29891201:C:T	20:29891242:A:T
+DEFB116	anno	synonymous	synonymous	missense
+DEFB118	var	20:29960787:C:T	20:29960870:C:T
+DEFB118	anno	synonymous	missense
+DEFB119	var	20:29976949:C:A	20:29977000:A:C
+DEFB119	anno	missense	missense
+REM1	var	20:30064331:A:G	20:30064462:G:A	20:30070197:C:G	20:30070239:C:A
+REM1	anno	missense	missense	missense	synonymous
+ID1	var	20:30193226:C:G	20:30193377:A:G	20:30193538:A:G
+ID1	anno	synonymous	missense	synonymous
+COX4I2	var	20:30232587:G:A	20:30232673:G:A
+COX4I2	anno	synonymous	missense
+TPX2	var	20:30354417:G:A	20:30359429:A:G	20:30381660:G:A	20:30381758:G:C	20:30382315:A:G	20:30385267:G:A
+TPX2	anno	synonymous	synonymous	missense	synonymous	synonymous	missense
+MYLK2	var	20:30407387:G:A	20:30407978:A:G	20:30408160:C:A	20:30408306:C:G	20:30409276:G:A	20:30409452:T:C	20:30412101:C:T	20:30414503:C:T	20:30414621:C:T	20:30419539:T:C
+MYLK2	anno	missense	synonymous	missense	missense	missense	synonymous	synonymous	synonymous	synonymous	synonymous
+FOXS1	var	20:30432679:C:T	20:30432787:G:A	20:30432954:C:T	20:30433033:C:T	20:30433126:C:T	20:30433139:G:A
+FOXS1	anno	missense	missense	missense	missense	missense	synonymous
+DUSP15	var	20:30436287:C:T	20:30436641:G:C	20:30436666:G:A	20:30449325:C:G	20:30449420:A:C	20:30451734:T:C	20:30452782:C:T
+DUSP15	anno	missense	missense	synonymous	missense	missense	missense	synonymous
+TTLL9	var	20:30486330:C:T	20:30496398:G:A	20:30507720:C:T	20:30510779:C:G	20:30510804:C:T	20:30513702:C:T	20:30513735:C:T	20:30521643:C:T	20:30522545:C:T	20:30527065:T:C
+TTLL9	anno	missense	missense	synonymous	missense	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous
+XKR7	var	20:30582896:C:T	20:30584531:C:T	20:30584710:C:T
+XKR7	anno	synonymous	synonymous	missense
+CCM2L	var	20:30602775:C:T	20:30605680:C:A	20:30610508:A:T	20:30616835:G:A	20:30618837:G:A	20:30618930:C:T
+CCM2L	anno	synonymous	synonymous	missense	missense	missense	missense
+HCK	var	20:30659537:C:T	20:30661130:T:C	20:30661605:A:T	20:30662426:A:G	20:30674467:C:T	20:30686919:C:T
+HCK	anno	synonymous	synonymous	missense	synonymous	missense	synonymous
+TM9SF4	var	20:30729619:G:A	20:30737529:C:T	20:30746284:C:T
+TM9SF4	anno	missense	synonymous	synonymous
+PLAGL2	var	20:30784654:C:T	20:30785074:A:G	20:30789888:G:A
+PLAGL2	anno	synonymous	synonymous	missense
+POFUT1	var	20:30795819:C:T	20:30816111:A:G	20:30818786:G:A	20:30818823:G:A	20:30818850:C:T
+POFUT1	anno	synonymous	synonymous	synonymous	missense	missense
+KIF3B	var	20:30904029:G:A	20:30915461:T:C	20:30918081:A:G
+KIF3B	anno	synonymous	synonymous	synonymous
+ASXL1	var	20:31017209:C:T	20:31017720:C:T	20:31020745:G:C	20:31022480:C:T	20:31022765:C:T	20:31022851:C:T	20:31023472:A:G	20:31023500:C:T	20:31023666:C:T	20:31023821:G:T	20:31023830:C:T	20:31024013:C:G	20:31024028:G:A	20:31024274:T:C	20:31024450:C:T	20:31024488:C:T	20:31024704:G:A
+ASXL1	anno	synonymous	synonymous	missense	synonymous	synonymous	missense	missense	synonymous	missense	missense	synonymous	missense	synonymous	synonymous	missense	missense	missense
+NOL4L	var	20:31040067:G:A	20:31040091:C:T	20:31040783:G:A	20:31041421:G:A	20:31044088:C:T	20:31044170:G:C
+NOL4L	anno	synonymous	synonymous	synonymous	synonymous	missense	synonymous
+C20orf203	var	20:31238627:C:T	20:31238636:G:A
+C20orf203	anno	synonymous	synonymous
+DNMT3B	var	20:31367948:C:T	20:31383232:C:T	20:31383238:G:A	20:31386347:T:C	20:31386449:T:C	20:31388077:C:T	20:31388080:C:T	20:31389229:G:A
+DNMT3B	anno	synonymous	missense	missense	synonymous	synonymous	synonymous	synonymous	synonymous
+MAPRE1	var	20:31427635:C:T	20:31434540:A:G
+MAPRE1	anno	synonymous	synonymous
+EFCAB8	var	20:31455538:A:G	20:31466534:C:T	20:31473404:G:A	20:31473428:G:A	20:31477160:A:G	20:31477168:A:G	20:31480052:G:C	20:31481077:C:T	20:31484292:T:C	20:31484326:G:A	20:31486403:G:A	20:31486430:G:A	20:31494382:A:G	20:31496192:A:G	20:31497682:G:T	20:31499307:G:A	20:31499335:C:T	20:31499390:C:T	20:31499502:G:C	20:31505189:C:T	20:31505292:T:C	20:31506216:C:G	20:31508015:G:A	20:31518229:G:A	20:31518298:A:G	20:31531544:C:T	20:31547898:G:A	20:31548947:G:A	20:31549044:A:G	20:31549047:C:T	20:31549123:C:T
+EFCAB8	anno	missense	missense	synonymous	synonymous	synonymous	missense	missense	missense	synonymous	missense	synonymous	lof	synonymous	missense	missense	missense	missense	synonymous	missense	missense	synonymous	missense	synonymous	missense	missense	lof	synonymous	synonymous	missense	missense	missense
+SUN5	var	20:31572953:C:A	20:31573614:C:T	20:31583439:C:T	20:31590439:G:A	20:31590686:C:A
+SUN5	anno	synonymous	synonymous	missense	synonymous	missense
+BPIFB2	var	20:31596430:T:A	20:31596472:A:T	20:31601670:C:T	20:31604885:A:G	20:31606908:G:A	20:31607551:G:C	20:31608388:A:T	20:31609581:C:T	20:31611174:C:T
+BPIFB2	anno	missense	missense	synonymous	missense	missense	missense	missense	synonymous	synonymous
+BPIFB6	var	20:31619500:C:T	20:31619515:G:A	20:31622005:G:A	20:31622083:A:G	20:31624300:C:T	20:31626754:C:T	20:31627291:A:G	20:31628100:T:A
+BPIFB6	anno	missense	missense	missense	synonymous	synonymous	missense	missense	missense
+BPIFB3	var	20:31643322:C:T	20:31643355:T:C	20:31644436:A:C	20:31647696:G:T	20:31649627:T:A	20:31652292:G:A	20:31652315:G:C	20:31652478:G:A	20:31652507:C:A	20:31652513:C:G	20:31652596:C:T	20:31654638:C:T	20:31656632:C:G	20:31659927:A:G	20:31660543:C:T
+BPIFB3	anno	synonymous	lof	synonymous	lof	missense	missense	missense	missense	missense	synonymous	missense	synonymous	missense	synonymous	missense
+BPIFB4	var	20:31671209:G:C	20:31671577:G:A	20:31671599:A:G	20:31671619:G:T	20:31671628:C:T	20:31671663:T:C	20:31673846:A:G	20:31676804:A:C	20:31678534:T:C	20:31680334:C:T	20:31688241:C:T	20:31688260:T:C	20:31690784:C:T	20:31692657:G:A
+BPIFB4	anno	missense	missense	missense	missense	synonymous	synonymous	missense	missense	synonymous	missense	synonymous	synonymous	synonymous	synonymous
+BPIFA2	var	20:31756954:G:A	20:31757078:G:A	20:31761919:A:G	20:31767470:G:C	20:31767473:G:A	20:31768363:C:T
+BPIFA2	anno	lof	missense	missense	missense	missense	synonymous
+BPIFA3	var	20:31805464:C:A	20:31812923:A:G	20:31813013:G:A
+BPIFA3	anno	missense	synonymous	missense
+BPIFB1	var	20:31876616:T:C	20:31876681:A:G	20:31877713:A:T	20:31889183:T:C	20:31890175:G:T	20:31894766:C:T	20:31894789:C:G	20:31897554:G:C
+BPIFB1	anno	missense	missense	missense	missense	missense	synonymous	missense	missense
+CDK5RAP1	var	20:31954726:T:A	20:31981849:C:T
+CDK5RAP1	anno	missense	synonymous
+SNTA1	var	20:31996582:G:A	20:32000462:C:T	20:32000520:G:C	20:32031206:G:A
+SNTA1	anno	synonymous	synonymous	missense	missense
+CBFA2T2	var	20:32162067:G:C	20:32199069:T:C	20:32211070:G:A	20:32212690:C:T	20:32228315:A:G	20:32232296:C:T	20:32232380:C:G
+CBFA2T2	anno	missense	synonymous	synonymous	synonymous	missense	synonymous	missense
+NECAB3	var	20:32245789:T:C	20:32247750:C:T	20:32248163:C:T	20:32262098:G:T
+NECAB3	anno	missense	missense	synonymous	missense
+C20orf144	var	20:32251396:A:G
+C20orf144	anno	missense
+ACTL10	var	20:32255441:C:A	20:32255873:C:T
+ACTL10	anno	missense	synonymous
+E2F1	var	20:32264675:C:T	20:32264941:G:A	20:32266134:C:T	20:32268180:C:T
+E2F1	anno	missense	missense	missense	missense
+PXMP4	var	20:32295541:C:T	20:32295687:G:A
+PXMP4	anno	missense	missense
+ZNF341	var	20:32336755:G:A	20:32341041:C:T	20:32341160:T:C	20:32358018:G:A	20:32369114:A:G	20:32376745:C:T	20:32376748:C:T	20:32378846:C:T	20:32378906:C:T	20:32379195:A:C	20:32379263:C:T	20:32379318:G:A
+ZNF341	anno	synonymous	missense	synonymous	synonymous	missense	synonymous	synonymous	synonymous	synonymous	missense	synonymous	missense
+RALY	var	20:32664601:C:A	20:32664917:G:A	20:32664926:G:A
+RALY	anno	missense	missense	missense
+EIF2S2	var	20:32678368:T:G
+EIF2S2	anno	synonymous
+ASIP	var	20:32856838:C:A	20:32856931:C:T
+ASIP	anno	synonymous	synonymous
+AHCY	var	20:32873405:G:A	20:32880242:C:T	20:32883308:G:A
+AHCY	anno	synonymous	missense	missense
+ITCH	var	20:32996469:A:G	20:33000354:T:C	20:33004942:G:T	20:33005028:G:A	20:33037221:A:G
+ITCH	anno	missense	synonymous	missense	missense	synonymous
+PIGU	var	20:33169405:C:T	20:33173306:G:C	20:33203900:G:A
+PIGU	anno	missense	synonymous	synonymous
+TP53INP2	var	20:33297184:G:T	20:33297185:C:T
+TP53INP2	anno	missense	synonymous
+NCOA6	var	20:33328420:C:T	20:33330470:A:C	20:33330548:G:A	20:33330880:G:A	20:33334661:T:C	20:33337388:T:C	20:33337751:C:T	20:33338114:G:A	20:33345438:G:T	20:33345747:T:C	20:33346625:C:A
+NCOA6	anno	synonymous	missense	missense	synonymous	missense	synonymous	synonymous	synonymous	missense	synonymous	missense
+GGT7	var	20:33433182:G:A	20:33442648:T:C	20:33447306:G:A	20:33447314:C:T	20:33451148:G:A	20:33451212:G:A
+GGT7	anno	synonymous	missense	synonymous	missense	synonymous	synonymous
+ACSS2	var	20:33464534:G:C	20:33470694:T:C	20:33501271:C:T	20:33502162:C:T	20:33502196:A:C	20:33508358:T:C	20:33508826:A:G	20:33509655:G:A	20:33513983:G:C
+ACSS2	anno	missense	synonymous	missense	synonymous	missense	missense	synonymous	missense	missense
+GSS	var	20:33517301:C:T
+GSS	anno	missense
+MYH7B	var	20:33565480:C:T	20:33565755:G:A	20:33567299:G:T	20:33567575:C:T	20:33574765:T:C	20:33574773:A:G	20:33575434:C:T	20:33575677:T:A	20:33577679:G:A	20:33577915:G:A	20:33578899:C:T	20:33581180:G:A	20:33581955:G:A	20:33581971:T:C	20:33582046:C:T	20:33584197:C:T	20:33584289:C:T	20:33584304:G:A	20:33584310:G:A	20:33585272:C:T	20:33585437:C:T	20:33586193:C:T	20:33586968:G:A	20:33587198:G:C	20:33587596:G:A	20:33588185:A:T	20:33588193:G:A	20:33588263:C:G	20:33588370:T:A	20:33588489:G:A	20:33588874:G:A	20:33589107:G:A
+MYH7B	anno	synonymous	missense	missense	synonymous	synonymous	missense	missense	missense	missense	synonymous	synonymous	missense	synonymous	missense	missense	missense	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous	missense	missense	synonymous	missense	missense	missense	missense	synonymous	synonymous	synonymous
+TRPC4AP	var	20:33594301:C:T	20:33657126:A:G	20:33657147:T:A	20:33665969:C:T
+TRPC4AP	anno	synonymous	synonymous	missense	synonymous
+EDEM2,MMP24-AS1-EDEM2	var	20:33703607:C:T	20:33706486:G:A	20:33706509:G:A	20:33711831:T:C	20:33714148:C:T
+EDEM2,MMP24-AS1-EDEM2	anno	missense	missense	synonymous	missense	missense
+PROCR	var	20:33763985:C:T	20:33764554:A:G
+PROCR	anno	missense	missense
+MMP24	var	20:33834686:G:A	20:33834708:G:A	20:33834785:C:T	20:33855062:G:A	20:33855093:C:T	20:33862265:G:A
+MMP24	anno	missense	synonymous	missense	missense	synonymous	synonymous
+MMP24OS	var	20:33865588:G:C
+MMP24OS	anno	missense
+EIF6	var	20:33868487:G:A	20:33868598:G:A	20:33872167:C:G	20:33872215:C:A
+EIF6	anno	synonymous	synonymous	missense	missense
+FAM83C	var	20:33874600:C:T	20:33874720:C:T	20:33874784:A:G	20:33875492:C:T	20:33875698:C:A	20:33876688:C:T	20:33879708:C:T	20:33879977:G:T
+FAM83C	anno	missense	missense	missense	missense	missense	missense	missense	missense
+UQCC1	var	20:33891824:C:T	20:33971914:T:C	20:33981987:T:C
+UQCC1	anno	missense	synonymous	missense
+GDF5	var	20:34022196:C:T	20:34022387:A:C	20:34025212:G:T	20:34025360:C:A
+GDF5	anno	synonymous	missense	missense	missense
+CEP250	var	20:34057799:A:G	20:34060621:C:T	20:34067573:C:T	20:34078517:G:A	20:34079058:G:T	20:34085845:G:A	20:34085846:A:T	20:34089718:G:T	20:34089740:G:A	20:34090519:G:A	20:34090979:G:A	20:34091675:G:A	20:34092076:G:A	20:34092171:C:T	20:34092213:G:A	20:34092583:A:G	20:34096816:G:A
+CEP250	anno	synonymous	missense	synonymous	missense	missense	missense	missense	synonymous	missense	missense	synonymous	synonymous	missense	missense	missense	missense	synonymous
+C20orf173	var	20:34116282:T:C	20:34116307:C:T	20:34117015:C:T	20:34117196:G:A
+C20orf173	anno	missense	synonymous	missense	missense
+ERGIC3	var	20:34144746:A:G	20:34144749:G:A
+ERGIC3	anno	synonymous	synonymous
+SPAG4	var	20:34204168:G:A	20:34204180:C:T	20:34205080:C:T	20:34206041:C:T
+SPAG4	anno	missense	lof	synonymous	missense
+CPNE1	var	20:34214173:G:A	20:34214723:T:C	20:34218673:G:C	20:34219480:G:A	20:34219496:T:C	20:34220548:C:T	20:34220755:C:T
+CPNE1	anno	missense	synonymous	missense	synonymous	missense	missense	missense
+RBM12	var	20:34240686:T:C	20:34240957:G:A	20:34241530:T:C	20:34242660:C:T	20:34243017:C:T
+RBM12	anno	synonymous	missense	missense	synonymous	synonymous
+NFS1	var	20:34278459:T:C	20:34285637:T:C
+NFS1	anno	missense	missense
+ROMO1	var	20:34287564:G:A
+ROMO1	anno	missense
+RBM39	var	20:34292441:T:C
+RBM39	anno	missense
+PHF20	var	20:34459706:C:T	20:34502107:G:A	20:34526853:C:T
+PHF20	anno	missense	missense	synonymous
+CNBD2	var	20:34560609:G:A	20:34572668:G:T	20:34596371:C:T	20:34611605:C:T	20:34611650:G:A
+CNBD2	anno	missense	missense	missense	missense	missense
+EPB41L1	var	20:34761810:C:T	20:34770234:G:T	20:34773054:G:C	20:34773198:C:T	20:34782156:G:A	20:34782171:T:C	20:34783252:C:T	20:34785935:C:G	20:34785938:A:G	20:34797801:C:T
+EPB41L1	anno	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous	missense	missense	missense	missense
+AAR2	var	20:34828459:T:C	20:34843605:G:A
+AAR2	anno	synonymous	missense
+DLGAP4	var	20:35060149:G:A	20:35060186:C:T	20:35060236:C:T	20:35060729:C:T	20:35060853:G:A	20:35064566:G:A	20:35075339:G:A	20:35128751:G:A	20:35128780:C:T
+DLGAP4	anno	missense	synonymous	missense	synonymous	missense	missense	synonymous	missense	missense
+MYL9	var	20:35176541:G:A
+MYL9	anno	synonymous
+RAB5IF	var	20:35238140:G:A
+RAB5IF	anno	missense
+SLA2	var	20:35242745:C:T	20:35242796:G:A	20:35262953:G:A
+SLA2	anno	missense	synonymous	missense
+NDRG3	var	20:35281959:G:T	20:35293702:C:T	20:35310966:A:G
+NDRG3	anno	synonymous	missense	synonymous
+SOGA1	var	20:35414905:G:T	20:35421970:C:T	20:35422936:G:T	20:35422960:G:A	20:35431486:C:T	20:35437002:G:A	20:35438414:C:T	20:35441225:G:A	20:35443591:A:G	20:35443751:G:A	20:35443898:C:T	20:35467638:A:G	20:35467656:G:A	20:35467713:G:A	20:35491136:C:T
+SOGA1	anno	missense	synonymous	synonymous	synonymous	missense	synonymous	missense	missense	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous
+TLDC2	var	20:35507542:G:A	20:35507548:G:C	20:35507558:G:A	20:35509130:T:G	20:35515880:A:G	20:35517702:C:A
+TLDC2	anno	synonymous	missense	missense	missense	missense	missense
+RBL1	var	20:35651080:G:C	20:35661138:G:A	20:35661238:A:C	20:35675512:G:A
+RBL1	anno	synonymous	missense	missense	missense
+RPN2	var	20:35835826:G:A	20:35842190:C:T	20:35852309:G:A	20:35865054:T:C
+RPN2	anno	missense	synonymous	missense	synonymous
+GHRH	var	20:35882698:G:A
+GHRH	anno	missense
+SRC	var	20:36024599:C:T
+SRC	anno	synonymous
+CTNNBL1	var	20:36374919:G:C	20:36374999:C:T	20:36406066:A:G
+CTNNBL1	anno	missense	synonymous	synonymous
+VSTM2L	var	20:36531791:C:T	20:36531798:G:A	20:36561948:C:T	20:36572514:G:A	20:36572560:C:G
+VSTM2L	anno	synonymous	missense	missense	synonymous	missense
+TTI1	var	20:36624780:C:T	20:36634618:C:T	20:36634717:T:C	20:36640419:G:A	20:36640466:G:A	20:36640870:C:T	20:36641735:C:T	20:36641871:G:A
+TTI1	anno	missense	synonymous	synonymous	synonymous	synonymous	missense	missense	synonymous
+RPRD1B	var	20:36662369:C:T	20:36668874:G:A
+RPRD1B	anno	missense	synonymous
+TGM2	var	20:36759521:C:T	20:36760894:C:A	20:36767858:C:T	20:36767986:C:T	20:36770588:C:T	20:36775135:G:A	20:36784379:C:T
+TGM2	anno	synonymous	missense	missense	synonymous	synonymous	synonymous	synonymous
+KIAA1755	var	20:36841540:G:A	20:36841599:G:A	20:36841756:T:C	20:36841849:C:T	20:36841914:G:A	20:36842086:G:A	20:36845738:C:T	20:36846718:G:A	20:36846723:G:A	20:36848064:G:A	20:36850940:G:C	20:36850988:C:T	20:36854106:G:T	20:36856579:G:A	20:36856616:G:A	20:36859627:C:G	20:36859711:G:A	20:36868106:G:A	20:36869005:G:A	20:36869207:C:T	20:36869378:A:G	20:36869396:G:A	20:36869516:C:A	20:36869769:C:T	20:36870122:T:G	20:36870122:T:A
+KIAA1755	anno	synonymous	missense	synonymous	synonymous	missense	synonymous	missense	synonymous	synonymous	missense	synonymous	synonymous	synonymous	synonymous	missense	synonymous	synonymous	missense	lof	synonymous	synonymous	synonymous	missense	missense	synonymous	synonymous
+BPI	var	20:36932647:G:A	20:36932660:T:C	20:36932676:C:G	20:36937342:C:T	20:36937431:C:T	20:36939052:G:C	20:36940314:C:T	20:36946848:G:A	20:36952342:C:T	20:36952425:A:C	20:36954670:G:A	20:36954724:C:T	20:36954790:G:A	20:36956019:C:T	20:36956026:A:G
+BPI	anno	missense	synonymous	synonymous	missense	synonymous	synonymous	missense	missense	missense	missense	missense	missense	missense	synonymous	missense
+LBP	var	20:36974945:C:T	20:36974946:G:A	20:36977970:G:A	20:36979265:T:C	20:36982688:C:A	20:36982754:G:A	20:36982811:G:A	20:36989381:G:A	20:36989391:G:A	20:36989410:A:G	20:36993333:A:G	20:36997655:C:T	20:36997672:C:T	20:36997785:G:A	20:36997795:C:T	20:36999382:G:A	20:36999945:A:G	20:37001761:T:C	20:37002589:G:A
+LBP	anno	missense	synonymous	synonymous	synonymous	missense	missense	missense	synonymous	missense	missense	missense	missense	missense	synonymous	missense	missense	synonymous	missense	missense
+RALGAPB	var	20:37168469:G:T	20:37177423:A:G	20:37198538:C:T	20:37198582:C:T	20:37199443:G:A	20:37202908:G:A
+RALGAPB	anno	synonymous	synonymous	missense	missense	synonymous	missense
+ARHGAP40	var	20:37230591:C:T	20:37230600:C:T	20:37230633:C:T	20:37252018:G:A	20:37255681:G:A	20:37257590:C:G	20:37258196:A:G	20:37258198:A:G	20:37258265:C:T	20:37263408:C:T	20:37266427:G:A	20:37267924:G:A	20:37267979:C:T
+ARHGAP40	anno	synonymous	synonymous	synonymous	missense	synonymous	synonymous	missense	missense	missense	missense	synonymous	missense	missense
+ACTR5	var	20:37377139:C:T	20:37377481:G:A	20:37378721:G:A	20:37383640:T:C	20:37394988:G:A	20:37396114:A:G	20:37396117:G:A	20:37396120:A:G
+ACTR5	anno	synonymous	synonymous	missense	synonymous	synonymous	missense	missense	missense
+PPP1R16B	var	20:37464754:G:C	20:37464755:A:G	20:37524270:C:T	20:37529251:G:A	20:37534642:C:A	20:37534665:C:T	20:37547022:A:C	20:37547207:G:A
+PPP1R16B	anno	missense	missense	synonymous	synonymous	synonymous	synonymous	missense	synonymous
+FAM83D	var	20:37555116:G:C	20:37555366:A:G	20:37570725:C:T	20:37580385:G:A	20:37580670:C:G
+FAM83D	anno	missense	missense	synonymous	missense	missense
+DHX35	var	20:37601243:A:G	20:37621052:T:C	20:37630439:A:G	20:37630480:A:T	20:37647448:T:G	20:37647466:C:T	20:37652337:G:A	20:37657087:A:G	20:37659385:C:T	20:37667148:T:C	20:37667182:C:T
+DHX35	anno	synonymous	missense	missense	synonymous	synonymous	synonymous	missense	missense	missense	missense	missense
+TOP1	var	20:39690119:G:A	20:39704896:C:T	20:39713188:A:G
+TOP1	anno	synonymous	missense	synonymous
+PLCG1	var	20:39792063:A:G	20:39795376:A:G	20:39797439:C:T	20:39797465:C:T	20:39797788:C:T	20:39801128:C:T	20:39802814:G:T	20:39802851:G:A
+PLCG1	anno	missense	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous	missense
+ZHX3	var	20:39813729:G:A	20:39813741:G:A	20:39813788:G:A	20:39831546:C:T	20:39832495:G:C	20:39832628:T:C	20:39833324:G:A	20:39833403:C:T
+ZHX3	anno	missense	missense	synonymous	missense	synonymous	missense	missense	missense
+LPIN3	var	20:39974452:C:T	20:39974482:G:T	20:39974502:G:A	20:39974514:C:T	20:39974584:C:G	20:39974624:C:T	20:39978495:C:T	20:39978946:G:T	20:39978998:G:C	20:39980543:G:A	20:39980857:C:T	20:39983321:C:T	20:39983372:G:A	20:39986085:A:C	20:39986540:G:A	20:39986549:G:A
+LPIN3	anno	synonymous	synonymous	missense	missense	synonymous	missense	synonymous	missense	missense	synonymous	synonymous	missense	missense	missense	synonymous	synonymous
+EMILIN3	var	20:39990007:C:T	20:39990371:A:G	20:39990377:G:C	20:39990481:C:T	20:39990580:C:T	20:39990614:C:T	20:39990649:C:T	20:39990700:T:C	20:39990711:G:A	20:39990833:C:T	20:39991144:A:G	20:39991171:G:A	20:39991330:C:T	20:39993740:C:T
+EMILIN3	anno	synonymous	missense	missense	synonymous	synonymous	missense	synonymous	synonymous	missense	missense	synonymous	synonymous	synonymous	synonymous
+CHD6	var	20:40034097:A:G	20:40040870:G:A	20:40043913:C:T	20:40044055:G:C	20:40045231:G:C	20:40045257:C:T	20:40049349:C:T	20:40049450:T:A	20:40049579:T:A	20:40049586:T:C	20:40049698:C:T	20:40049873:T:C	20:40050314:G:A	20:40053863:C:T	20:40068759:C:T	20:40079642:G:A	20:40079655:G:C	20:40113060:T:G	20:40126048:G:A	20:40162062:G:C	20:40162203:T:C
+CHD6	anno	synonymous	missense	synonymous	missense	missense	missense	missense	missense	missense	missense	synonymous	missense	missense	missense	synonymous	synonymous	missense	missense	synonymous	missense	missense
+PTPRT	var	20:40710643:C:T	20:40714479:G:A	20:40733305:G:T	20:40743945:A:G	20:40757444:C:G	20:40877358:G:C	20:40877407:G:A	20:40980902:C:T	20:41076932:C:G	20:41100922:C:T	20:41101051:G:A	20:41101161:T:G	20:41101180:G:A	20:41101195:T:C	20:41306600:A:G	20:41306789:C:T	20:41385211:G:A	20:41400114:A:T	20:41420095:T:C	20:41818289:G:C
+PTPRT	anno	missense	synonymous	missense	missense	missense	missense	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous	missense	synonymous
+SRSF6	var	20:42086724:C:T	20:42087079:C:G	20:42088708:G:A	20:42089511:C:T	20:42089617:C:G	20:42089664:A:G
+SRSF6	anno	synonymous	synonymous	synonymous	synonymous	missense	synonymous
+L3MBTL1	var	20:42142699:C:T	20:42143659:C:T	20:42143936:G:A	20:42144792:T:G	20:42163540:G:A	20:42164722:T:C	20:42164791:A:C	20:42169613:C:G
+L3MBTL1	anno	missense	synonymous	missense	missense	missense	synonymous	synonymous	missense
+SGK2	var	20:42194989:T:A	20:42199307:G:A	20:42203644:G:A	20:42204913:A:C	20:42208665:C:T
+SGK2	anno	missense	synonymous	synonymous	missense	synonymous
+IFT52	var	20:42225114:A:G	20:42242524:T:C	20:42252606:G:A	20:42264628:C:T	20:42264653:G:A
+IFT52	anno	synonymous	synonymous	missense	missense	synonymous
+MYBL2	var	20:42310426:C:T	20:42315590:C:T	20:42320881:C:T	20:42328639:C:T	20:42331457:A:G	20:42343821:C:G
+MYBL2	anno	synonymous	synonymous	synonymous	synonymous	missense	missense
+GTSF1L	var	20:42354897:T:C	20:42355169:G:C	20:42355213:G:A	20:42355270:A:T
+GTSF1L	anno	synonymous	missense	missense	missense
+TOX2	var	20:42543595:G:T	20:42635391:C:A	20:42679955:A:G	20:42680068:G:A	20:42682966:G:A
+TOX2	anno	missense	missense	missense	synonymous	missense
+JPH2	var	20:42743454:A:G	20:42744344:C:T	20:42744587:G:C	20:42747247:C:T	20:42747254:G:A	20:42788571:T:C	20:42788803:G:C	20:42815190:A:G
+JPH2	anno	synonymous	synonymous	synonymous	missense	synonymous	missense	synonymous	synonymous
+OSER1	var	20:42825929:C:T	20:42826157:G:C	20:42826350:A:C	20:42826379:C:T
+OSER1	anno	synonymous	synonymous	missense	synonymous
+GDAP1L1	var	20:42887117:C:T	20:42891917:G:A	20:42891934:C:T	20:42907667:G:A
+GDAP1L1	anno	synonymous	missense	synonymous	synonymous
+FITM2	var	20:42935763:C:T	20:42939673:T:C	20:42939693:C:T
+FITM2	anno	synonymous	missense	missense
+R3HDML	var	20:42965841:T:G	20:42965863:C:T	20:42965892:C:T	20:42965999:G:A	20:42966025:T:C	20:42972130:C:T	20:42973935:T:C	20:42973972:A:G
+R3HDML	anno	missense	synonymous	missense	missense	synonymous	missense	synonymous	missense
+HNF4A	var	20:43034732:G:A	20:43034783:C:T	20:43042364:C:T	20:43048414:G:A	20:43057048:C:T
+HNF4A	anno	synonymous	synonymous	missense	missense	synonymous
+TTPAL	var	20:43117986:C:G	20:43118017:G:A	20:43118038:C:T
+TTPAL	anno	missense	synonymous	synonymous
+SERINC3	var	20:43129073:G:A
+SERINC3	anno	missense
+ADA	var	20:43252915:T:C	20:43254298:C:T	20:43255220:T:C	20:43280227:C:T
+ADA	anno	synonymous	synonymous	missense	missense
+CCN5	var	20:43348653:G:A	20:43348735:C:A	20:43353446:C:G
+CCN5	anno	missense	synonymous	synonymous
+KCNK15	var	20:43374694:T:C	20:43374770:C:T	20:43374830:C:T	20:43378770:A:G	20:43379321:C:T	20:43379454:T:C
+KCNK15	anno	missense	synonymous	synonymous	missense	missense	missense
+RIMS4	var	20:43384814:G:A	20:43384935:C:G
+RIMS4	anno	synonymous	missense
+YWHAB	var	20:43530234:A:C	20:43532662:A:G
+YWHAB	anno	synonymous	missense
+PABPC1L	var	20:43538793:C:G	20:43547582:A:C	20:43547597:C:T	20:43547677:T:G	20:43566786:C:T	20:43566787:A:G
+PABPC1L	anno	synonymous	missense	missense	missense	missense	synonymous
+TOMM34	var	20:43572217:T:C
+TOMM34	anno	synonymous
+STK4	var	20:43629135:G:A	20:43629904:A:G	20:43653713:C:T
+STK4	anno	missense	missense	missense
+KCNS1	var	20:43723627:T:C	20:43723696:G:A	20:43726432:G:A	20:43726759:C:T	20:43727155:C:T	20:43727833:C:G
+KCNS1	anno	missense	missense	synonymous	synonymous	synonymous	synonymous
+WFDC5	var	20:43739100:G:A	20:43739119:G:A
+WFDC5	anno	missense	missense
+PI3	var	20:43803606:G:A	20:43803613:C:T	20:43803618:G:A	20:43803638:G:A	20:43804522:A:C	20:43804530:A:T	20:43804578:A:G	20:43804686:C:T	20:43804749:C:T
+PI3	anno	missense	missense	missense	synonymous	missense	missense	synonymous	synonymous	synonymous
+SEMG1	var	20:43836173:T:A	20:43836240:G:A	20:43836872:A:C	20:43837005:G:A	20:43837040:G:C	20:43837135:T:C	20:43837144:T:C	20:43837278:G:A	20:43837303:C:T
+SEMG1	anno	missense	missense	missense	missense	missense	synonymous	synonymous	missense	synonymous
+SEMG2	var	20:43850072:C:T	20:43850400:C:A	20:43850525:A:G	20:43850832:C:T	20:43851094:G:A	20:43851108:C:T	20:43851115:G:A	20:43851147:C:T	20:43851375:G:C	20:43851767:T:G
+SEMG2	anno	synonymous	missense	synonymous	lof	missense	missense	missense	missense	missense	missense
+MATN4	var	20:43926573:C:T	20:43926614:G:A	20:43929790:G:A	20:43929982:G:C	20:43930036:C:A	20:43933021:G:T	20:43933163:T:C	20:43933188:G:A	20:43933196:C:T	20:43933348:G:A
+MATN4	anno	missense	missense	missense	missense	missense	missense	synonymous	missense	synonymous	lof
+RBPJL	var	20:43940260:T:C	20:43940495:A:G	20:43942676:T:C	20:43944958:G:T	20:43945573:A:C
+RBPJL	anno	missense	synonymous	synonymous	synonymous	missense
+SDC4	var	20:43976991:A:G
+SDC4	anno	missense
+SYS1	var	20:43992271:C:T
+SYS1	anno	synonymous
+TP53TG5	var	20:44002597:G:T	20:44002650:A:G	20:44003785:G:A	20:44003790:G:T	20:44003932:A:G	20:44004129:G:A	20:44005936:C:T
+TP53TG5	anno	missense	missense	missense	missense	missense	synonymous	missense
+DBNDD2	var	20:44037095:C:T	20:44038574:G:A
+DBNDD2	anno	synonymous	synonymous
+PIGT	var	20:44047493:G:T	20:44047972:G:A	20:44047974:G:A	20:44048224:T:C	20:44048972:A:C	20:44049218:C:T	20:44049279:A:C	20:44052992:A:G	20:44054349:C:T	20:44054436:C:T
+PIGT	anno	missense	synonymous	missense	synonymous	missense	synonymous	missense	synonymous	synonymous	synonymous
+SPINT3	var	20:44141331:G:A	20:44141400:A:G	20:44141411:C:T	20:44141434:C:T	20:44141443:T:C
+SPINT3	anno	synonymous	missense	synonymous	missense	missense
+EPPIN,EPPIN-WFDC6	var	20:44171455:T:C
+EPPIN,EPPIN-WFDC6	anno	missense
+WFDC8	var	20:44180782:G:C	20:44184375:T:C	20:44184407:C:A	20:44184498:A:G	20:44190769:A:G
+WFDC8	anno	synonymous	missense	missense	missense	missense
+WFDC9	var	20:44237319:G:A	20:44237357:G:A	20:44238741:T:G
+WFDC9	anno	synonymous	missense	missense
+WFDC10A	var	20:44259549:G:A
+WFDC10A	anno	synonymous
+WFDC10B	var	20:44314609:G:A
+WFDC10B	anno	synonymous
+WFDC13	var	20:44330799:T:G
+WFDC13	anno	missense
+SPINT4	var	20:44351095:C:A	20:44352620:G:A	20:44352622:C:G
+SPINT4	anno	missense	missense	synonymous
+WFDC3	var	20:44417593:C:A	20:44417643:G:A	20:44417675:C:G	20:44418564:G:A
+WFDC3	anno	missense	synonymous	synonymous	synonymous
+DNTTIP1	var	20:44420682:C:T
+DNTTIP1	anno	synonymous
+UBE2C	var	20:44441403:C:G	20:44444281:C:T
+UBE2C	anno	missense	synonymous
+TNNC2	var	20:44452697:A:C
+TNNC2	anno	synonymous
+SNX21	var	20:44463752:C:T	20:44469290:A:G	20:44469366:A:C	20:44470676:C:T
+SNX21	anno	synonymous	synonymous	missense	synonymous
+ACOT8	var	20:44470575:G:A	20:44472286:G:A	20:44477173:G:A	20:44485950:G:A
+ACOT8	anno	missense	synonymous	missense	missense
+ZSWIM3	var	20:44505830:C:T	20:44505973:C:T	20:44506208:G:A	20:44506418:A:G	20:44506661:G:A
+ZSWIM3	anno	synonymous	synonymous	synonymous	synonymous	synonymous
+ZSWIM1	var	20:44511257:G:A	20:44511533:G:A	20:44511627:C:T	20:44512082:G:A	20:44512365:C:G	20:44512638:G:T
+ZSWIM1	anno	lof	missense	synonymous	missense	synonymous	synonymous
+SPATA25	var	20:44515244:C:T	20:44515322:C:T	20:44515339:C:T	20:44515559:G:A
+SPATA25	anno	missense	missense	synonymous	missense
+CTSA	var	20:44520579:C:G	20:44523472:G:A	20:44526676:G:A
+CTSA	anno	synonymous	missense	synonymous
+PLTP	var	20:44530943:G:A	20:44530966:C:T	20:44533618:C:T	20:44533731:C:T	20:44536383:G:A
+PLTP	anno	missense	missense	missense	synonymous	synonymous
+PCIF1	var	20:44569534:G:A	20:44576247:G:A
+PCIF1	anno	synonymous	synonymous
+ZNF335	var	20:44578674:T:A	20:44578961:A:G	20:44578991:G:A	20:44580788:G:T	20:44581348:G:A	20:44582435:G:T	20:44587926:A:C	20:44588904:G:A	20:44590732:G:A	20:44596207:G:C	20:44596262:C:T	20:44596545:G:A	20:44598236:A:C
+ZNF335	anno	synonymous	synonymous	synonymous	synonymous	synonymous	missense	missense	missense	synonymous	synonymous	missense	synonymous	missense
+MMP9	var	20:44637624:C:T	20:44637635:C:T	20:44637678:A:G	20:44639214:C:T	20:44640225:A:G	20:44640275:G:A	20:44642406:C:G	20:44642833:C:A	20:44643111:G:A	20:44644965:G:A
+MMP9	anno	missense	missense	missense	missense	missense	missense	synonymous	synonymous	missense	synonymous
+SLC12A5	var	20:44664491:C:A	20:44664493:G:T	20:44665946:T:C	20:44666003:G:C	20:44671875:C:G	20:44671880:C:T	20:44673722:G:A	20:44680412:C:T	20:44680424:G:T	20:44680493:G:A	20:44684856:G:A
+SLC12A5	anno	synonymous	synonymous	synonymous	synonymous	missense	synonymous	synonymous	synonymous	synonymous	synonymous	missense
+NCOA5	var	20:44691350:T:G	20:44692170:T:G	20:44692202:A:G	20:44698893:G:A
+NCOA5	anno	synonymous	synonymous	missense	synonymous
+CD40	var	20:44755376:G:C	20:44757524:C:G
+CD40	anno	missense	missense
+CDH22	var	20:44803193:G:A	20:44803287:G:A	20:44806643:G:A	20:44806727:G:A	20:44806808:G:C	20:44815292:C:T	20:44839056:G:A	20:44845530:G:C	20:44856208:G:A	20:44869653:G:A
+CDH22	anno	synonymous	missense	synonymous	synonymous	missense	missense	synonymous	missense	synonymous	missense
+SLC35C2	var	20:44979458:G:A	20:44987147:C:T	20:44987176:G:A
+SLC35C2	anno	synonymous	missense	synonymous
+ELMO2	var	20:45003211:C:T	20:45003977:C:T	20:45015989:G:A	20:45022720:G:C
+ELMO2	anno	synonymous	synonymous	synonymous	synonymous
+ZNF334	var	20:45130453:T:C	20:45130454:C:T	20:45130768:G:C	20:45131155:G:A	20:45131385:A:G	20:45131665:T:C	20:45133290:A:G
+ZNF334	anno	missense	synonymous	missense	missense	missense	missense	missense
+OCSTAMP	var	20:45169957:C:T	20:45170213:A:G	20:45170337:C:G	20:45170346:C:A	20:45174026:A:C	20:45174401:A:C	20:45174632:A:G	20:45179197:C:T
+OCSTAMP	anno	missense	synonymous	missense	missense	synonymous	synonymous	synonymous	lof
+SLC13A3	var	20:45188833:C:T	20:45194904:C:G	20:45204266:A:G	20:45216784:A:T	20:45221055:C:G	20:45242269:G:C
+SLC13A3	anno	missense	synonymous	synonymous	synonymous	missense	synonymous
+TP53RK	var	20:45315769:T:C	20:45315786:C:T	20:45318042:G:A
+TP53RK	anno	missense	missense	synonymous
+SLC2A10	var	20:45354291:G:A	20:45354491:C:G	20:45354829:C:G	20:45358092:G:A
+SLC2A10	anno	missense	synonymous	missense	synonymous
+EYA2	var	20:45633702:G:A	20:45644897:T:C	20:45702876:C:T	20:45717943:C:T	20:45717954:C:T	20:45717957:G:A	20:45771708:C:T	20:45797805:G:A	20:45801477:T:G	20:45816733:C:T	20:45816757:C:T
+EYA2	anno	missense	missense	missense	missense	synonymous	synonymous	missense	missense	missense	synonymous	synonymous
+ZMYND8	var	20:45853037:G:A	20:45867852:A:G	20:45867854:C:T	20:45878118:C:G	20:45905188:C:T	20:45920588:G:A
+ZMYND8	anno	synonymous	missense	synonymous	missense	synonymous	synonymous
+NCOA3	var	20:46256424:C:T	20:46264805:C:T	20:46264888:G:C	20:46265240:G:A	20:46268493:A:G	20:46268748:C:T	20:46271008:G:A	20:46275917:A:C	20:46275938:G:A	20:46279827:G:A	20:46279918:C:T
+NCOA3	anno	missense	missense	missense	missense	synonymous	synonymous	synonymous	missense	missense	synonymous	missense
+SULF2	var	20:46292275:T:C	20:46294691:G:A	20:46295228:G:A	20:46313189:C:T	20:46313190:G:A	20:46365571:G:A	20:46365636:C:T	20:46385955:C:T	20:46386075:C:G
+SULF2	anno	missense	synonymous	synonymous	missense	synonymous	synonymous	missense	synonymous	synonymous
+PREX1	var	20:47244450:G:A	20:47246070:G:A	20:47246077:C:G	20:47246127:G:A	20:47247325:A:T	20:47248885:C:A	20:47249116:G:A	20:47249170:G:A	20:47253043:G:A	20:47253100:G:A	20:47253123:G:A	20:47253124:G:A	20:47253150:C:T	20:47253151:G:A	20:47256372:T:C	20:47258763:C:T	20:47261017:T:C	20:47262427:G:A	20:47262549:C:T	20:47265999:G:A	20:47266553:G:A	20:47267480:A:G	20:47267940:G:A	20:47268002:C:T	20:47269187:G:C	20:47269233:C:G	20:47269963:T:C	20:47273726:C:T	20:47282861:C:T	20:47307543:C:G	20:47307618:G:A	20:47351095:G:A	20:47361610:G:A	20:47361655:C:T
+PREX1	anno	synonymous	synonymous	missense	synonymous	missense	missense	synonymous	synonymous	synonymous	synonymous	missense	synonymous	synonymous	synonymous	missense	missense	synonymous	synonymous	missense	synonymous	synonymous	synonymous	synonymous	missense	missense	missense	missense	missense	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous
+ARFGEF2	var	20:47558417:C:T	20:47570296:C:T	20:47570300:C:G	20:47589800:G:A	20:47611060:G:C	20:47612375:G:A	20:47614885:G:A	20:47621630:T:C	20:47626847:T:C	20:47630449:C:T	20:47648616:C:T
+ARFGEF2	anno	missense	synonymous	missense	synonymous	missense	synonymous	missense	synonymous	synonymous	synonymous	synonymous
+CSE1L	var	20:47685320:G:C	20:47712930:G:T
+CSE1L	anno	synonymous	missense
+STAU1	var	20:47741011:G:A
+STAU1	anno	synonymous
+DDX27	var	20:47839969:A:G	20:47841503:G:A	20:47841660:G:T	20:47841706:G:A	20:47845262:C:T	20:47845311:G:A	20:47847587:C:T	20:47850182:T:C	20:47855496:C:T	20:47859217:G:A
+DDX27	anno	synonymous	missense	missense	synonymous	synonymous	missense	synonymous	synonymous	synonymous	missense
+ZNFX1	var	20:47864811:G:A	20:47864833:G:A	20:47865340:C:T	20:47865372:A:G	20:47865509:A:G	20:47865672:C:T	20:47865784:C:T	20:47866063:G:A	20:47871053:C:T	20:47872377:G:C	20:47873978:C:T	20:47874005:A:G	20:47874052:C:T	20:47874063:T:C	20:47886684:A:G	20:47886696:C:G	20:47886876:T:C	20:47887168:C:T	20:47887250:T:C	20:47887812:C:T	20:47887853:T:C
+ZNFX1	anno	missense	synonymous	synonymous	synonymous	synonymous	missense	missense	synonymous	missense	synonymous	synonymous	synonymous	missense	missense	synonymous	missense	synonymous	missense	missense	missense	missense
+KCNB1	var	20:47989527:C:T	20:47989624:G:A	20:47990235:G:A	20:47990250:G:C	20:47990260:G:A	20:47990915:C:T
+KCNB1	anno	missense	missense	missense	missense	missense	synonymous
+PTGIS	var	20:48129706:G:T	20:48140682:C:T	20:48140727:T:C	20:48156189:G:A	20:48156236:C:T	20:48156249:G:A	20:48164503:G:A
+PTGIS	anno	synonymous	synonymous	synonymous	synonymous	missense	synonymous	synonymous
+B4GALT5	var	20:48252858:G:A	20:48252914:C:T	20:48257149:T:C	20:48259034:G:A	20:48273174:C:T	20:48330210:C:T
+B4GALT5	anno	synonymous	missense	synonymous	synonymous	missense	synonymous
+SLC9A8	var	20:48429462:G:T	20:48429485:A:C	20:48466166:G:A	20:48491258:G:T	20:48494572:T:C	20:48503306:G:A
+SLC9A8	anno	lof	missense	synonymous	synonymous	missense	synonymous
+SPATA2	var	20:48522330:G:A	20:48522585:G:A	20:48522655:G:A	20:48522659:G:A	20:48522841:C:T	20:48522949:T:C	20:48523326:G:A	20:48524827:A:G
+SPATA2	anno	synonymous	synonymous	missense	missense	missense	missense	synonymous	synonymous
+RNF114	var	20:48558197:C:T	20:48558209:C:T	20:48565831:G:A
+RNF114	anno	synonymous	synonymous	missense
+SNAI1	var	20:48600557:T:C	20:48600631:T:C	20:48600809:G:A
+SNAI1	anno	synonymous	missense	synonymous
+PEDS1,PEDS1-UBE2V1	var	20:48746189:C:T	20:48770156:A:C
+PEDS1,PEDS1-UBE2V1	anno	synonymous	missense
+CEBPB	var	20:48807918:C:T	20:48808011:C:T
+CEBPB	anno	synonymous	synonymous
+PELATON	var	20:48894733:C:A	20:48894756:C:T	20:48894793:T:C
+PELATON	anno	missense	missense	missense
+PTPN1	var	20:49191191:A:G	20:49195061:A:G	20:49196284:C:T	20:49197854:G:A	20:49197873:C:T
+PTPN1	anno	synonymous	synonymous	synonymous	missense	missense
+RIPOR3	var	20:49209710:C:T	20:49212021:T:C	20:49214156:G:A	20:49214188:C:T	20:49214198:C:G	20:49214214:C:T	20:49214215:G:A	20:49218870:C:T	20:49218900:C:T	20:49219011:C:G	20:49221198:C:T	20:49221199:G:A	20:49221255:A:G	20:49221303:T:C	20:49224995:C:T	20:49225045:C:T	20:49225201:G:A	20:49225233:G:A	20:49226184:C:T	20:49226211:C:T	20:49247330:C:T
+RIPOR3	anno	missense	synonymous	synonymous	synonymous	missense	missense	synonymous	synonymous	synonymous	missense	missense	missense	missense	missense	missense	synonymous	synonymous	missense	missense	missense	missense
+PARD6B	var	20:49354598:A:G	20:49366491:C:T	20:49366743:G:T	20:49366845:T:C	20:49366879:C:T
+PARD6B	anno	missense	synonymous	missense	synonymous	synonymous
+BCAS4	var	20:49411689:G:T	20:49411698:G:T	20:49492605:C:T	20:49493076:G:A
+BCAS4	anno	synonymous	missense	synonymous	synonymous
+ADNP	var	20:49507972:G:A	20:49508508:C:T	20:49508683:G:A	20:49508776:C:A	20:49509175:C:T	20:49509184:G:A
+ADNP	anno	synonymous	missense	synonymous	synonymous	synonymous	synonymous
+DPM1	var	20:49575021:G:A
+DPM1	anno	missense
+MOCS3	var	20:49575400:A:C	20:49576528:G:A	20:49576664:T:G
+MOCS3	anno	synonymous	synonymous	missense
+KCNG1	var	20:49620783:T:G	20:49620909:G:T	20:49621149:C:T
+KCNG1	anno	synonymous	synonymous	synonymous
+NFATC2	var	20:50071198:A:G	20:50092027:T:G	20:50133431:G:A	20:50140039:C:T	20:50140627:G:C	20:50140629:C:G
+NFATC2	anno	missense	synonymous	synonymous	synonymous	synonymous	missense
+ATP9A	var	20:50225102:C:T	20:50235577:G:A	20:50273483:G:C	20:50273594:G:A	20:50287736:T:C	20:50287790:G:A	20:50307296:G:A	20:50310559:G:A	20:50346491:C:A
+ATP9A	anno	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous	missense
+SALL4	var	20:50405502:C:G	20:50406630:T:G	20:50406732:A:G	20:50406807:C:A	20:50406840:C:G	20:50406892:C:T	20:50406985:G:A	20:50407072:G:A	20:50407162:T:C	20:50407465:G:A	20:50407502:A:C	20:50407909:G:C	20:50407966:C:T	20:50408377:G:C	20:50408481:C:T	20:50408614:A:G
+SALL4	anno	synonymous	missense	missense	missense	missense	synonymous	synonymous	synonymous	synonymous	synonymous	missense	synonymous	synonymous	synonymous	missense	synonymous
+ZFP64	var	20:50701323:C:T	20:50701402:C:T	20:50705064:G:A	20:50715050:G:A	20:50769016:G:C	20:50769183:G:A	20:50769379:C:T	20:50769457:A:T	20:50769549:A:G	20:50803444:C:T	20:50803459:C:T	20:50803573:G:A
+ZFP64	anno	missense	synonymous	synonymous	synonymous	missense	synonymous	missense	missense	synonymous	synonymous	synonymous	synonymous
+TSHZ2	var	20:51870244:T:G	20:51870276:G:A	20:51870325:A:G	20:51870336:G:C	20:51870579:G:A	20:51870849:C:T	20:51870954:G:A	20:51871044:C:T	20:51871502:G:A	20:51871665:G:A	20:51872655:T:G
+TSHZ2	anno	missense	synonymous	missense	missense	synonymous	synonymous	synonymous	synonymous	missense	synonymous	synonymous
+ZNF217	var	20:52185740:C:T	20:52192408:C:T	20:52192417:C:T	20:52192560:G:A	20:52192561:C:A	20:52192595:C:T	20:52192637:T:C	20:52192789:T:C	20:52192957:C:G	20:52192998:A:G	20:52193032:C:T	20:52193088:C:T	20:52193368:C:T	20:52193542:C:T	20:52193660:G:A	20:52193698:G:A	20:52193722:G:A	20:52198340:T:A	20:52198472:A:G	20:52198967:A:G	20:52198979:G:A	20:52199237:G:A
+ZNF217	anno	missense	synonymous	synonymous	missense	missense	missense	missense	synonymous	synonymous	missense	synonymous	missense	synonymous	synonymous	missense	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous
+BCAS1	var	20:52561469:A:G	20:52573971:T:G	20:52583523:T:A	20:52612549:C:T	20:52645114:T:C	20:52645166:A:G	20:52645167:C:A	20:52645290:C:G	20:52675188:G:T
+BCAS1	anno	missense	missense	synonymous	missense	synonymous	missense	missense	missense	missense
+CYP24A1	var	20:52773992:C:T	20:52774675:G:A	20:52775528:C:T	20:52781091:C:T	20:52786219:A:G	20:52788189:C:T	20:52788190:G:T	20:52789885:A:C	20:52790005:C:A
+CYP24A1	anno	missense	missense	synonymous	synonymous	synonymous	missense	synonymous	synonymous	synonymous
+DOK5	var	20:53092515:G:A	20:53111429:C:T	20:53205281:G:A
+DOK5	anno	synonymous	synonymous	synonymous
+MC3R	var	20:54824029:G:A	20:54824466:T:A	20:54824557:C:A
+MC3R	anno	missense	synonymous	missense
+FAM210B	var	20:54934067:C:T	20:54940148:C:T	20:54941140:C:T	20:54941268:G:A
+FAM210B	anno	synonymous	synonymous	missense	synonymous
+AURKA	var	20:54945309:T:C	20:54958082:C:T	20:54961463:C:T	20:54961541:A:T
+AURKA	anno	missense	synonymous	synonymous	missense
+CSTF1	var	20:54974043:C:T	20:54978750:G:A
+CSTF1	anno	synonymous	synonymous
+CASS4	var	20:55012318:G:A	20:55012461:G:A	20:55027815:G:T	20:55028167:G:A	20:55033476:C:G	20:55033635:C:T	20:55033647:T:C	20:55033713:G:A
+CASS4	anno	synonymous	missense	missense	synonymous	synonymous	synonymous	synonymous	synonymous
+RTF2	var	20:55047447:G:A	20:55088404:G:A
+RTF2	anno	synonymous	synonymous
+FAM209A	var	20:55100029:G:T	20:55101019:A:G	20:55101085:G:A
+FAM209A	anno	missense	missense	missense
+FAM209B	var	20:55108415:G:A	20:55108508:G:A	20:55108510:G:A	20:55108511:T:C	20:55108538:C:T	20:55108617:A:C	20:55111371:G:A
+FAM209B	anno	synonymous	synonymous	missense	synonymous	synonymous	synonymous	synonymous
+TFAP2C	var	20:55206335:C:T	20:55206401:C:G	20:55209257:T:C
+TFAP2C	anno	synonymous	synonymous	synonymous
+BMP7	var	20:55750060:T:C	20:55758929:C:T	20:55803299:C:T
+BMP7	anno	missense	synonymous	synonymous
+SPO11	var	20:55905010:A:G	20:55909085:T:G	20:55909092:G:A	20:55909842:A:G
+SPO11	anno	synonymous	synonymous	missense	missense
+RAE1	var	20:55929860:A:G	20:55931594:C:T	20:55940426:G:A	20:55941872:C:T	20:55948719:C:T
+RAE1	anno	synonymous	synonymous	synonymous	missense	synonymous
+MTRNR2L3	var	20:55934083:T:C
+MTRNR2L3	anno	missense
+RBM38	var	20:55982813:G:A	20:55982858:G:C
+RBM38	anno	missense	missense
+CTCFL	var	20:56071399:C:T	20:56071416:C:A	20:56075371:C:T	20:56075390:A:C	20:56078499:G:A	20:56083763:G:C	20:56083773:T:C	20:56087800:T:C	20:56090807:A:G	20:56093714:C:G	20:56093888:C:T	20:56098315:T:A	20:56098733:C:T	20:56098746:G:A	20:56098806:C:A	20:56099110:C:T	20:56099114:C:G
+CTCFL	anno	synonymous	missense	missense	missense	synonymous	missense	synonymous	missense	synonymous	missense	missense	missense	synonymous	synonymous	missense	missense	missense
+PCK1	var	20:56136536:G:A	20:56136608:C:T	20:56137184:C:T	20:56137758:C:T	20:56137798:G:A	20:56137807:G:A	20:56137834:G:A	20:56137895:C:G	20:56137901:G:A	20:56138178:C:T	20:56138230:C:T	20:56138621:A:G	20:56138648:G:A	20:56138695:C:T	20:56138747:G:A	20:56139365:G:A	20:56139403:C:T	20:56140633:G:A	20:56140665:C:T
+PCK1	anno	synonymous	synonymous	synonymous	missense	synonymous	synonymous	synonymous	synonymous	missense	synonymous	missense	missense	missense	synonymous	missense	missense	synonymous	missense	synonymous
+ZBP1	var	20:56185209:G:A	20:56185241:C:T	20:56185303:G:A	20:56188176:T:C	20:56188219:C:T	20:56188385:T:C	20:56189985:C:G	20:56190060:C:T	20:56190634:T:C	20:56191360:A:G	20:56191401:T:C	20:56191475:C:T	20:56191509:C:A	20:56195349:C:T
+ZBP1	anno	synonymous	missense	missense	missense	missense	synonymous	missense	missense	synonymous	missense	missense	synonymous	missense	lof
+PMEPA1	var	20:56227121:T:C	20:56227514:T:C	20:56227532:C:T	20:56227589:C:G
+PMEPA1	anno	synonymous	synonymous	synonymous	missense
+C20orf85	var	20:56728609:T:A	20:56728632:G:A	20:56730619:C:T	20:56735759:A:G	20:56735761:C:T	20:56735870:G:T
+C20orf85	anno	synonymous	missense	synonymous	missense	synonymous	missense
+ANKRD60	var	20:56793706:A:G	20:56793724:G:A	20:56793764:A:G	20:56796528:A:T	20:56803353:C:T
+ANKRD60	anno	synonymous	missense	synonymous	missense	synonymous
+VAPB	var	20:57014075:T:G
+VAPB	anno	missense
+APCDD1L	var	20:57036570:C:T	20:57036571:G:A	20:57042171:C:G	20:57042465:G:A	20:57042665:A:G	20:57045667:T:C	20:57045765:A:G
+APCDD1L	anno	missense	missense	missense	synonymous	missense	synonymous	missense
+STX16	var	20:57244396:G:A	20:57244493:A:G
+STX16	anno	missense	synonymous
+NPEPL1	var	20:57268867:C:A	20:57269495:G:A	20:57269591:C:T	20:57274321:G:A	20:57282190:G:A	20:57287542:A:G	20:57289017:C:T	20:57289675:C:T	20:57290347:C:A	20:57290347:G:C
+NPEPL1	anno	synonymous	synonymous	synonymous	synonymous	synonymous	missense	synonymous	synonymous	missense	synonymous
+GNAS	var	20:57415455:C:T	20:57415876:C:A	20:57428804:A:G	20:57428947:G:A	20:57428948:G:C	20:57429447:C:T	20:57429541:C:G	20:57429568:A:C	20:57429627:C:A	20:57429775:C:A	20:57430118:C:G	20:57478807:C:T	20:57478846:C:T	20:57484241:C:T	20:57485117:C:T	20:57485812:C:T
+GNAS	anno	synonymous	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	synonymous	synonymous	synonymous	synonymous	synonymous
+NELFCD	var	20:57564070:C:T	20:57564695:C:T	20:57566372:C:T	20:57566944:A:C
+NELFCD	anno	synonymous	synonymous	synonymous	synonymous
+CTSZ	var	20:57571763:G:A	20:57572709:A:G	20:57572729:C:T	20:57572776:T:C
+CTSZ	anno	synonymous	missense	synonymous	missense
+TUBB1	var	20:57597934:A:G	20:57597970:A:C	20:57597971:G:C	20:57598562:C:A	20:57598848:C:T	20:57598878:C:G	20:57599303:C:T	20:57599402:G:A	20:57599557:C:T
+TUBB1	anno	missense	missense	missense	synonymous	synonymous	synonymous	missense	missense	missense
+PRELID3B	var	20:57610120:G:C	20:57613569:G:A	20:57613605:C:G
+PRELID3B	anno	missense	synonymous	missense
+ZNF831	var	20:57766113:G:A	20:57766356:G:A	20:57766383:C:G	20:57766673:C:T	20:57767013:C:T	20:57767043:G:C	20:57767683:C:A	20:57767727:T:A	20:57767939:T:G	20:57767960:A:G	20:57768222:G:A	20:57768399:T:C	20:57768417:G:A	20:57768531:C:T	20:57768607:G:C	20:57768655:G:A	20:57768657:T:C	20:57768692:C:A	20:57768743:C:T	20:57769140:G:C	20:57782053:C:T	20:57829301:C:T	20:57829527:C:T
+ZNF831	anno	synonymous	synonymous	synonymous	missense	synonymous	synonymous	missense	synonymous	missense	missense	synonymous	synonymous	synonymous	synonymous	missense	missense	synonymous	missense	missense	missense	synonymous	synonymous	missense
+PHACTR3	var	20:58330275:C:A	20:58342349:C:T	20:58342420:G:A	20:58348387:C:T	20:58348458:C:T	20:58348474:C:A	20:58348482:G:A
+PHACTR3	anno	synonymous	missense	missense	missense	synonymous	missense	synonymous
+SYCP2	var	20:58440873:G:A	20:58441612:C:T	20:58442796:C:A	20:58442826:C:A	20:58449010:G:A	20:58452566:C:T	20:58452582:A:G	20:58455447:A:G	20:58461802:T:C	20:58461835:G:C	20:58467097:T:G	20:58467157:G:A	20:58475307:G:A	20:58476774:G:A	20:58476811:C:T	20:58476841:G:T	20:58496438:A:G
+SYCP2	anno	synonymous	synonymous	missense	synonymous	synonymous	synonymous	missense	missense	missense	missense	missense	missense	synonymous	synonymous	missense	missense	missense
+PPP1R3D	var	20:58514466:C:T	20:58514494:C:T	20:58514904:G:A
+PPP1R3D	anno	missense	missense	missense
+FAM217B	var	20:58519514:C:G	20:58520066:A:G	20:58520135:A:G
+FAM217B	anno	synonymous	synonymous	synonymous
+CDH26	var	20:58558015:T:C	20:58558082:A:G	20:58562571:C:G	20:58564146:A:G	20:58567492:T:C	20:58571064:G:T	20:58574667:G:A	20:58576432:A:G	20:58576449:T:G	20:58581800:C:G
+CDH26	anno	missense	synonymous	missense	missense	missense	missense	synonymous	missense	missense	synonymous
+CDH4	var	20:59827596:T:C	20:59829921:G:A	20:60074530:C:T	20:60348084:C:T	20:60419750:C:T	20:60427926:C:T	20:60427938:C:T	20:60448938:G:A	20:60485627:T:C	20:60485639:C:T	20:60503350:A:G	20:60503441:G:A	20:60509209:C:T	20:60511860:C:T	20:60511887:C:T
+CDH4	anno	synonymous	missense	synonymous	missense	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous	missense	synonymous	synonymous	synonymous	synonymous
+TAF4	var	20:60551383:G:A	20:60572663:A:C
+TAF4	anno	synonymous	synonymous
+LSM14B	var	20:60704972:G:A
+LSM14B	anno	missense
+PSMA7	var	20:60713311:A:G	20:60713332:G:A	20:60718297:G:A
+PSMA7	anno	synonymous	synonymous	synonymous
+SS18L1	var	20:60737908:G:A	20:60738566:C:T	20:60738620:C:T	20:60739271:G:A	20:60749592:G:A	20:60749664:G:A
+SS18L1	anno	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous
+MTG2	var	20:60768497:C:T	20:60768573:C:T	20:60768615:G:A	20:60770931:A:G	20:60773889:C:T	20:60774238:G:A	20:60775922:C:T	20:60775932:C:T	20:60776027:C:T	20:60778208:G:T	20:60778225:G:T
+MTG2	anno	synonymous	missense	missense	missense	missense	missense	missense	synonymous	missense	missense	missense
+HRH3	var	20:60791185:C:T	20:60791404:C:T	20:60791422:C:T	20:60791866:G:A	20:60793657:C:T	20:60794781:G:A
+HRH3	anno	synonymous	synonymous	synonymous	synonymous	missense	synonymous
+OSBPL2	var	20:60848400:C:G	20:60868966:C:G
+OSBPL2	anno	synonymous	missense
+ADRM1	var	20:60878683:A:G	20:60881330:A:G	20:60882747:C:A	20:60882763:G:A	20:60883191:C:T	20:60883442:G:A
+ADRM1	anno	missense	synonymous	missense	synonymous	missense	missense
+LAMA5	var	20:60884473:C:T	20:60884827:G:A	20:60884843:T:C	20:60884852:G:A	20:60885242:C:T	20:60885362:G:A	20:60886078:G:A	20:60886987:G:A	20:60887020:G:A	20:60887239:C:T	20:60887240:G:A	20:60887343:G:A	20:60887356:G:A	20:60887468:G:A	20:60887581:A:G	20:60887583:C:T	20:60887691:G:A	20:60887758:G:C	20:60888201:G:A	20:60888267:G:A	20:60888510:G:A	20:60889385:G:T	20:60889493:T:G	20:60889960:C:G	20:60891986:G:C	20:60892450:C:T	20:60892538:G:A	20:60892545:C:T	20:60892769:G:A	20:60892782:T:A	20:60892813:G:A	20:60893612:G:A	20:60893615:C:G	20:60893635:C:T	20:60893637:C:T	20:60893639:G:C	20:60893690:C:T	20:60893697:C:T	20:60893979:C:T	20:60894813:G:A	20:60894840:G:A	20:60894849:G:A	20:60895697:C:T	20:60895900:G:A	20:60897104:C:T	20:60897158:C:A	20:60897487:T:C	20:60897488:G:A	20:60897721:C:T	20:60897772:T:C	20:60898581:T:C	20:60898654:G:A	20:60898720:C:T	20:60898833:G:A	20:60898891:C:T	20:60899182:C:T	20:60899196:C:T	20:60899206:T:C	20:60899513:C:A	20:60900388:C:T	20:60900481:G:A	20:60900579:A:C	20:60901762:C:T	20:60901932:C:T	20:60901986:G:A	20:60902011:G:A	20:60902366:G:A	20:60902389:G:A	20:60902402:G:A	20:60902604:G:A	20:60902965:G:A	20:60903022:G:A	20:60903350:G:A	20:60903419:C:T	20:60904853:C:T	20:60905878:G:A	20:60907446:C:T	20:60907675:A:G	20:60907761:G:A	20:60908493:G:A	20:60908497:G:A	20:60908532:G:A	20:60908964:A:G	20:60908969:C:T	20:60909060:G:A	20:60909316:C:T	20:60910124:T:G	20:60910176:C:T	20:60911434:A:C	20:60912683:C:T	20:60912701:C:T	20:60912761:G:C	20:60913127:A:G	20:60920887:A:G	20:60920908:G:A	20:60921157:G:A	20:60921643:C:T	20:60926766:G:A	20:60926828:G:A	20:60927349:T:C	20:60927412:A:G	20:60928304:A:G	20:60937516:A:G	20:60937597:G:A	20:60942274:C:A
+LAMA5	anno	synonymous	synonymous	missense	missense	missense	missense	synonymous	synonymous	synonymous	missense	missense	synonymous	missense	synonymous	synonymous	missense	missense	missense	synonymous	synonymous	missense	missense	missense	synonymous	synonymous	missense	synonymous	missense	synonymous	missense	missense	synonymous	missense	missense	missense	synonymous	synonymous	missense	missense	synonymous	synonymous	synonymous	missense	synonymous	missense	missense	synonymous	synonymous	missense	missense	missense	synonymous	synonymous	missense	synonymous	missense	missense	synonymous	missense	missense	synonymous	synonymous	missense	missense	missense	synonymous	missense	missense	missense	missense	missense	missense	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous	missense	synonymous	missense	synonymous	synonymous	synonymous	synonymous	missense	missense	missense	missense	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous	missense	synonymous	missense	synonymous	synonymous	synonymous	missense	synonymous	synonymous	missense
+RPS21	var	20:60962943:T:C
+RPS21	anno	synonymous
+CABLES2	var	20:60966318:T:G	20:60966374:G:C	20:60966460:C:G	20:60967525:G:A	20:60968528:G:A	20:60968547:A:G	20:60968596:A:G	20:60970034:C:T	20:60971397:C:T	20:60982024:C:T
+CABLES2	anno	synonymous	synonymous	missense	synonymous	missense	missense	synonymous	synonymous	missense	synonymous
+RBBP8NL	var	20:60986019:A:C	20:60987737:C:T	20:60989164:G:A	20:60989185:C:T	20:60989187:G:T	20:60989365:C:T	20:60989567:C:T	20:60989607:A:G	20:60990257:G:T	20:60990260:G:T
+RBBP8NL	anno	missense	missense	missense	missense	missense	missense	synonymous	missense	synonymous	synonymous
+GATA5	var	20:61039958:C:T	20:61040453:C:G	20:61040951:C:T	20:61048549:G:A	20:61050379:T:G	20:61050522:G:C	20:61050570:T:C
+GATA5	anno	synonymous	synonymous	synonymous	synonymous	missense	missense	missense
+MIR1-1HG	var	20:61162267:C:T	20:61162289:G:A	20:61167658:C:G	20:61167883:G:A
+MIR1-1HG	anno	synonymous	synonymous	missense	synonymous
+SLCO4A1	var	20:61288015:G:A	20:61288038:G:A	20:61288086:C:T	20:61288355:G:T	20:61288446:G:A	20:61288593:G:A	20:61292447:G:A	20:61296367:C:A	20:61299243:C:T	20:61299525:G:A
+SLCO4A1	anno	missense	missense	missense	synonymous	missense	missense	synonymous	synonymous	missense	synonymous
+NTSR1	var	20:61340694:C:T	20:61340732:C:T	20:61340774:C:T	20:61386100:G:A	20:61386231:C:T	20:61386232:G:A	20:61389669:G:A	20:61391378:A:G	20:61391379:T:C	20:61391383:T:C	20:61391514:G:A
+NTSR1	anno	synonymous	missense	missense	missense	synonymous	missense	missense	missense	synonymous	missense	synonymous
+MRGBP	var	20:61427956:G:A
+MRGBP	anno	synonymous
+OGFR	var	20:61440971:G:A	20:61443636:G:A	20:61443660:G:A	20:61443687:G:A	20:61443716:G:A	20:61443809:G:A	20:61443870:C:G	20:61444233:C:A	20:61444244:C:T	20:61444523:C:T	20:61444540:A:C	20:61444555:G:A	20:61444558:G:A	20:61444563:C:T	20:61444915:A:G	20:61444918:A:G	20:61444923:T:C	20:61444939:G:C
+OGFR	anno	synonymous	synonymous	synonymous	synonymous	missense	missense	synonymous	synonymous	missense	missense	missense	missense	missense	synonymous	missense	missense	synonymous	missense
+COL9A3	var	20:61448466:G:A	20:61448933:C:A	20:61448969:C:T	20:61451332:C:T	20:61451333:G:A	20:61453149:T:C	20:61455823:C:T	20:61458135:G:A	20:61459301:C:T	20:61459315:C:T	20:61460124:G:A	20:61461895:C:T	20:61463522:C:A	20:61467564:C:G	20:61467586:C:T	20:61468571:C:T	20:61468580:C:T	20:61468587:A:C	20:61470065:G:A	20:61471925:C:T	20:61472073:C:A
+COL9A3	anno	missense	synonymous	synonymous	missense	missense	missense	synonymous	missense	synonymous	missense	synonymous	synonymous	missense	missense	synonymous	synonymous	synonymous	missense	missense	synonymous	synonymous
+DPH3P1	var	20:61477177:T:C
+DPH3P1	anno	synonymous
+TCFL5	var	20:61485507:C:T	20:61488785:T:C	20:61491494:T:C	20:61492426:C:T	20:61492458:C:T	20:61492864:C:T
+TCFL5	anno	missense	synonymous	missense	synonymous	missense	synonymous
+DIDO1	var	20:61511626:C:T	20:61512080:A:C	20:61512158:C:T	20:61512185:G:C	20:61512192:G:C	20:61512358:G:A	20:61512376:G:A	20:61512424:C:T	20:61512497:G:A	20:61512606:C:T	20:61512687:A:G	20:61512979:G:A	20:61513649:G:T	20:61513649:G:A	20:61522352:C:G	20:61522421:G:T	20:61525108:G:T	20:61525253:C:T	20:61525292:G:A	20:61525488:A:G	20:61528074:T:C	20:61528155:G:A	20:61528271:C:T	20:61528306:A:G	20:61528326:G:A	20:61537181:A:C	20:61538601:C:T	20:61541318:G:C	20:61542164:G:A	20:61542239:C:T	20:61542863:G:A	20:61542945:G:A
+DIDO1	anno	synonymous	missense	missense	missense	missense	synonymous	synonymous	synonymous	missense	synonymous	missense	synonymous	missense	missense	missense	synonymous	missense	missense	synonymous	synonymous	synonymous	synonymous	missense	missense	synonymous	missense	synonymous	synonymous	synonymous	synonymous	synonymous	missense
+GID8	var	20:61572938:C:T
+GID8	anno	synonymous
+SLC17A9	var	20:61588159:G:A	20:61588865:C:T	20:61594943:G:A	20:61595597:G:A	20:61595614:C:T	20:61595636:C:T	20:61598731:C:T
+SLC17A9	anno	synonymous	synonymous	missense	synonymous	missense	synonymous	missense
+BHLHE23	var	20:61637413:G:C	20:61638007:C:G
+BHLHE23	anno	missense	synonymous
+YTHDF1	var	20:61833801:G:A	20:61834024:C:G	20:61834092:G:A	20:61834695:G:A	20:61834855:G:A	20:61834857:G:A
+YTHDF1	anno	synonymous	missense	synonymous	synonymous	missense	synonymous
+BIRC7	var	20:61867454:A:G	20:61867619:C:G	20:61867626:C:T	20:61869789:A:G	20:61869826:C:T	20:61869956:G:A	20:61870553:G:C	20:61870727:G:C
+BIRC7	anno	synonymous	synonymous	missense	missense	synonymous	synonymous	missense	missense
+NKAIN4	var	20:61878950:A:C	20:61879009:G:T	20:61879074:C:T	20:61880169:T:G	20:61881296:G:A
+NKAIN4	anno	missense	missense	synonymous	missense	synonymous
+ARFGAP1	var	20:61907982:C:T	20:61908597:C:T	20:61917063:A:G	20:61917425:G:A	20:61917433:G:A	20:61917442:A:G	20:61917460:C:A	20:61917555:C:A
+ARFGAP1	anno	missense	missense	missense	missense	synonymous	synonymous	synonymous	missense
+COL20A1	var	20:61929348:C:A	20:61937296:C:T	20:61937318:G:A	20:61938843:C:A	20:61938951:G:A	20:61939929:C:G	20:61942783:A:G	20:61943041:C:T	20:61943089:G:A	20:61943803:C:T	20:61944156:G:A	20:61944193:T:C	20:61944225:C:T	20:61944243:A:G	20:61944253:G:A	20:61945237:G:A	20:61945439:G:C	20:61950849:G:A	20:61952385:C:G	20:61953440:G:A	20:61957026:C:G	20:61958112:G:A	20:61960961:T:C
+COL20A1	anno	missense	missense	synonymous	synonymous	synonymous	missense	synonymous	missense	missense	missense	missense	synonymous	missense	missense	synonymous	synonymous	missense	synonymous	synonymous	missense	missense	synonymous	missense
+CHRNA4	var	20:61981104:T:C	20:61981134:A:G	20:61981362:G:A	20:61981411:G:A	20:61981536:G:A	20:61981554:A:C	20:61981785:G:A	20:61982085:G:A	20:61982124:G:A	20:61982271:G:A	20:61990939:G:A	20:61992509:T:C
+CHRNA4	anno	synonymous	synonymous	synonymous	missense	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous
+KCNQ2	var	20:62038072:C:T	20:62038277:G:T	20:62038378:A:T	20:62038585:C:T	20:62039826:G:A	20:62043227:A:G	20:62044847:G:A	20:62046278:G:C	20:62046323:G:A	20:62070966:G:A	20:62073861:G:A
+KCNQ2	anno	synonymous	synonymous	synonymous	synonymous	synonymous	missense	synonymous	synonymous	synonymous	synonymous	synonymous
+EEF1A2	var	20:62119708:G:A	20:62119717:C:T	20:62119747:C:T	20:62119777:G:T	20:62126185:G:A	20:62126299:C:T	20:62126404:C:T	20:62127296:C:T	20:62127326:G:A
+EEF1A2	anno	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous
+PPDPF	var	20:62153151:C:T
+PPDPF	anno	synonymous
+PTK6	var	20:62160961:G:A	20:62161537:C:T	20:62165034:A:G	20:62166313:C:T
+PTK6	anno	synonymous	synonymous	synonymous	synonymous
+SRMS	var	20:62172219:G:A	20:62172244:C:G	20:62172269:C:A	20:62172281:C:T	20:62172283:G:A	20:62172639:G:A	20:62173561:C:G	20:62173562:G:T	20:62173817:C:T	20:62173896:G:A	20:62173916:C:T	20:62173925:T:G	20:62173927:G:A	20:62174724:G:A	20:62178513:C:T	20:62178555:T:C	20:62178594:C:T	20:62178739:C:T
+SRMS	anno	synonymous	missense	missense	missense	missense	missense	missense	synonymous	missense	synonymous	missense	synonymous	missense	synonymous	missense	missense	missense	synonymous
+FNDC11	var	20:62187187:T:C	20:62187439:T:C	20:62187517:G:A
+FNDC11	anno	synonymous	synonymous	synonymous
+HELZ2	var	20:62190641:G:A	20:62191282:G:A	20:62191321:G:A	20:62191558:G:A	20:62191937:G:A	20:62191955:G:A	20:62191973:C:T	20:62192244:C:T	20:62192768:C:T	20:62192969:G:A	20:62193019:C:T	20:62193253:G:T	20:62193445:G:A	20:62194011:C:T	20:62194030:G:C	20:62194103:A:G	20:62194123:G:C	20:62194128:G:A	20:62194212:C:A	20:62194238:C:T	20:62194298:G:C	20:62194304:C:T	20:62194510:T:C	20:62194713:A:C	20:62195087:A:G	20:62195220:C:T	20:62195344:G:A	20:62195538:G:A	20:62195645:C:T	20:62195663:G:A	20:62195666:G:A	20:62195672:C:T	20:62195726:G:A	20:62195814:C:T	20:62195923:G:A	20:62195933:G:A	20:62196020:C:T	20:62196033:C:T	20:62196182:G:C	20:62196253:C:A	20:62196430:G:A	20:62196661:C:T	20:62196677:G:A	20:62196807:C:T	20:62196884:G:A	20:62197004:T:C	20:62197370:G:A	20:62197568:G:A	20:62198236:A:G	20:62198348:T:C	20:62198413:G:A	20:62198662:G:A	20:62198686:G:A	20:62198713:G:A	20:62198961:G:A	20:62200275:C:T	20:62200575:C:T	20:62200576:G:A	20:62200587:C:T	20:62200738:G:A	20:62200860:G:A	20:62200929:G:A	20:62203597:T:G	20:62203656:C:T	20:62203661:G:A	20:62203663:C:T
+HELZ2	anno	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous	missense	synonymous	missense	missense	missense	missense	synonymous	missense	missense	missense	synonymous	synonymous	synonymous	missense	missense	synonymous	missense	missense	missense	synonymous	synonymous	synonymous	synonymous	synonymous	missense	missense	synonymous	synonymous	missense	synonymous	missense	missense	missense	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous	missense	missense	synonymous	missense	synonymous	missense	synonymous	synonymous	missense	missense	synonymous	missense
+GMEB2	var	20:62221610:C:T	20:62221682:C:T	20:62221766:C:T	20:62221867:C:T	20:62221982:G:A	20:62221988:C:T	20:62222060:C:T	20:62226971:G:A	20:62227081:G:A	20:62236148:C:T
+GMEB2	anno	synonymous	synonymous	synonymous	missense	synonymous	synonymous	synonymous	missense	synonymous	synonymous
+RTEL1	var	20:62292793:C:T	20:62293272:A:G	20:62297400:T:C	20:62309514:G:A	20:62309621:T:C	20:62309635:C:T	20:62309640:G:A	20:62309679:C:T	20:62319356:C:T	20:62320968:C:T	20:62321128:G:A	20:62321189:C:T	20:62321655:A:G	20:62322188:G:T	20:62322214:C:T	20:62322288:C:T	20:62322290:G:A	20:62324211:C:T	20:62324289:C:T	20:62324290:G:A	20:62324328:G:C	20:62325833:C:A	20:62326110:C:A	20:62326487:C:A	20:62326498:G:A	20:62326873:C:T	20:62326874:G:A	20:62327199:A:G
+RTEL1	anno	missense	missense	synonymous	synonymous	missense	synonymous	synonymous	synonymous	synonymous	synonymous	missense	synonymous	synonymous	missense	missense	synonymous	missense	synonymous	synonymous	missense	missense	missense	synonymous	synonymous	synonymous	missense	synonymous	synonymous
+TNFRSF6B	var	20:62328267:C:T	20:62328372:C:T	20:62328375:G:A	20:62328453:T:C	20:62328480:C:T	20:62328531:C:T	20:62328721:A:G	20:62328742:C:T	20:62328829:C:G
+TNFRSF6B	anno	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous
+ARFRP1	var	20:62331989:T:G
+ARFRP1	anno	synonymous
+ZGPAT	var	20:62338913:T:C	20:62340115:G:C
+ZGPAT	anno	lof	synonymous
+LIME1	var	20:62369997:C:T
+LIME1	anno	missense
+SLC2A4RG	var	20:62372813:A:G	20:62372824:T:A	20:62373707:T:G	20:62373796:T:G
+SLC2A4RG	anno	synonymous	missense	synonymous	missense
+ZBTB46	var	20:62378349:C:T	20:62378364:C:T	20:62378418:C:T	20:62407104:C:T	20:62407176:G:A	20:62421310:C:T	20:62421537:C:T	20:62421622:A:G	20:62422080:T:C
+ZBTB46	anno	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous	missense	synonymous	missense
+ABHD16B	var	20:62492922:T:A	20:62493371:C:T	20:62493978:G:A	20:62494027:G:C
+ABHD16B	anno	missense	missense	missense	synonymous
+TPD52L2	var	20:62496735:A:G	20:62521335:A:G
+TPD52L2	anno	missense	synonymous
+DNAJC5	var	20:62560701:C:T
+DNAJC5	anno	synonymous
+UCKL1	var	20:62572546:C:T	20:62575795:C:G	20:62577613:T:C
+UCKL1	anno	synonymous	synonymous	synonymous
+ZNF512B	var	20:62591460:G:A	20:62592667:C:T	20:62593698:C:T	20:62593704:G:A	20:62593710:T:C	20:62595169:G:A	20:62595547:C:T	20:62595990:T:C	20:62597666:C:T	20:62597694:G:T	20:62597996:T:C	20:62598815:C:T
+ZNF512B	anno	synonymous	missense	synonymous	synonymous	synonymous	synonymous	missense	missense	missense	synonymous	missense	synonymous
+SAMD10	var	20:62607160:C:T	20:62607179:G:A	20:62608720:T:G	20:62610741:C:G
+SAMD10	anno	synonymous	missense	missense	missense
+PRPF6	var	20:62614448:A:G	20:62630427:C:T	20:62641575:G:A	20:62641605:G:A	20:62642781:G:A
+PRPF6	anno	synonymous	synonymous	synonymous	synonymous	synonymous
+C20orf204	var	20:62669403:G:C
+C20orf204	anno	missense
+SOX18	var	20:62679873:C:T	20:62679908:G:A
+SOX18	anno	synonymous	missense
+TCEA2	var	20:62700840:G:A	20:62701627:G:A
+TCEA2	anno	synonymous	missense
+RGS19	var	20:62707975:G:C	20:62708228:C:T
+RGS19	anno	missense	synonymous
+LKAAEAR1	var	20:62714783:G:C	20:62715318:T:G	20:62715548:C:A
+LKAAEAR1	anno	synonymous	missense	missense
+OPRL1	var	20:62724093:C:T	20:62724202:C:T	20:62724253:C:T	20:62729272:G:A	20:62729431:C:T	20:62729814:C:T
+OPRL1	anno	missense	missense	missense	synonymous	synonymous	missense
+NPBWR2	var	20:62737318:G:A	20:62737512:C:T	20:62737537:C:A	20:62737568:T:C	20:62737579:C:T	20:62737727:C:T	20:62737888:G:A	20:62737967:G:A	20:62738060:G:A
+NPBWR2	anno	synonymous	missense	synonymous	missense	synonymous	missense	synonymous	missense	missense
+MYT1	var	20:62837071:G:A	20:62837140:C:T	20:62838958:G:A	20:62839414:G:A	20:62839672:C:T	20:62839710:G:C	20:62844911:C:T	20:62850358:C:T	20:62850376:C:T	20:62853349:C:G	20:62859298:C:T	20:62859313:C:T	20:62863580:C:T	20:62863601:C:T	20:62871232:C:T	20:62871684:C:T
+MYT1	anno	synonymous	synonymous	missense	missense	missense	synonymous	synonymous	synonymous	synonymous	missense	synonymous	synonymous	synonymous	synonymous	synonymous	synonymous
+PCMTD2	var	20:62891594:G:A	20:62896665:G:A	20:62904724:G:A
+PCMTD2	anno	synonymous	synonymous	missense

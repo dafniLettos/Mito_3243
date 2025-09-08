@@ -1,6 +1,6 @@
-# Genetic and environmental modulators of mitochondrial diesease in carriers of the m.3243A>G mitochondrial variant
+## Genetic and environmental modulators of mitochondrial disease in carriers of the m.3243A>G mitochondrial variant
 
-This repository holds instruction steps and scripts used to:
+This repository holds instruction steps and R scripts used to:
 
 1. Pre-process and impute genotypes (nuclear variants of m.3243 carriers) [GenoImp.md]
 2. Post-imputation QC and ancestry check [GenoImp.md]

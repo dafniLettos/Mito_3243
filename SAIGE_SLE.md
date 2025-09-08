@@ -1,5 +1,8 @@
 # Association Analyses Using SAIGE
 
+```
+git clone git@github.com:weizhouUMICH/SAIGE.git
+```
 ## Will be using docker image of tool
 ```
 docker pull wzhou88/saige:1.3.0

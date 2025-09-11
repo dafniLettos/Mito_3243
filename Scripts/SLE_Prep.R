@@ -67,7 +67,7 @@ nrow(subset(COVARIATES3, subset=(!is.na(sle) & sle==1)))
 # SLE SUBSET
 covariates_SLE <- COVARIATES3[,c(1:2,47:48,5,42:43,46)]
 sum(!is.na(covariates_SLE$sle))
-# 253 from the individuals with genotype [only EUR] data ALSO have sle data
+# 253 from the individuals with genotypes [only EUR] data ALSO have sle data
 
 covariates_SLE <- subset(covariates_SLE, subset=(!is.na(sle)))
 # 253 individuals
@@ -78,7 +78,7 @@ non_eur_ids <- read.table(file="./PCA/Non_EUR_IDs_Full.txt", header=TRUE)
 sum(non_eur_ids$Fam_PID %in% covariates_SLE$ID == TRUE)
 # [1] 0
 
-# CHECK IF ENCEPHALOPATHY SUBSET INCLUDES NON-EUR (includes 16 non-EUR)
+# CHECK IF SLE SUBSET INCLUDES NON-EUR
 covariates_SLE <- subset(covariates_SLE, subset=(pid %!in% non_eur_ids$Individual.ID))
 # 253 individuals
 
@@ -86,7 +86,7 @@ covariates_SLE <- subset(covariates_SLE, subset=(pid %!in% non_eur_ids$Individua
 sum(covariates_SLE$Genotype=="Yes")
 # [1] 253
 
-# ENCEPHALOPATHY SUBSET OVERVIEW
+# SLE SUBSET OVERVIEW
 sum((covariates_SLE$sle ==1))
 # [1] 56  CASES (197 CONTROLS)
 which(is.na(covariates_SLE$sle))
@@ -94,15 +94,15 @@ which(is.na(covariates_SLE$sle))
 which(is.na(covariates_SLE$het))
 # [1] 14 145 146 171 243 --- 5 missing values
 ids_missing_pheno <- covariates_SLE[c(which(is.na(covariates_SLE$sle_age)),which(is.na(covariates_SLE$het))),1]
-# 6 individuals nissibg pheno (5 missing het and 1 missing sle_age) - probably same as encephalopathy
+# 6 individuals nissing pheno (5 missing het and 1 missing sle_age) - probably same as encephalopathy
 # SO REALLY, ALTHOUGH SAIGE CAN HANDLE NAs IN THE PHENOTYPE FILE, THESE SAMPLES WILL BE IGNORED.
-# SO, THE GWAS WILL BE BASED ON 348 SAMPLES:
+# SO, THE GWAS WILL BE BASED ON 247 SAMPLES:
 nrow(subset(covariates_SLE, subset=(pid%!in%ids_missing_pheno & sle==1)))
 # 55 CASES
 nrow(subset(covariates_SLE, subset=(pid%!in%ids_missing_pheno & sle==0)))
 # 192 CONTROLS
 
-# MAKE PHENO FILE FOR SAIGE: encephalopathy, age, het, sex; pID
+# MAKE PHENO FILE FOR SAIGE: sle, age, het, sex; pID
 covariates_sle_pheno_file <- covariates_SLE[,c(6:7,5,8,1:3)]
 colnames(covariates_sle_pheno_file)[2] <- "age"
 sum(is.na(covariates_sle_pheno_file$sex))

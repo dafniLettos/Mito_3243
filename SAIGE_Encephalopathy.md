@@ -46,17 +46,16 @@ Rscript ../usr/local/bin/createSparseGRM.R \
 ```
 * If the sample size is relatively small, e.g. N < 1000, may consider using sparse GRM...
 * sparseGRM--numRandomMarkerforSparseKin=5000--relatednessCutoff=0.05_relatednessCutoff_0.125_2000_randomMarkersUsed.sparseGRM.mtx
----------------------
-
-## SINGLE VARIANT ASSOCIATION TEST
-### Step 1: Fitting the null logistic/linear mixed model [2 separate analyses with different MAF cut-off]
 #### Rename sparse GRM files
 ```
 mv ./output_data/SAIGE/sparseGRM384--numRandomMarkerforSparseKin=5000--relatednessCutoff=0.05_relatednessCutoff_0.125_2000_randomMarkersUsed.sparseGRM.mtx ./output_data/SAIGE/sparseGRM384.mtx
 
 mv ./output_data/SAIGE/sparseGRM384--numRandomMarkerforSparseKin=5000--relatednessCutoff=0.05_relatednessCutoff_0.125_2000_randomMarkersUsed.sparseGRM.mtx.sampleIDs.txt ./output_data/SAIGE/sparseGRM384_SampleIDs.txt
 ```
-#### Fit the NULL model using two MAF cut-offs [MAF>0.01 and MAF>0.05]
+---------------------
+
+## SINGLE VARIANT ASSOCIATION TEST
+### Step 1: Fit the NULL model using two MAF cut-offs [MAF>0.01 and MAF>0.05]
 ```
 Rscript ../usr/local/bin/step1_fitNULLGLMM.R \
         --plinkFile=./mydata/output_data/Geno_Imputed/merged_imputed_FINAL2_maf0.01 \
@@ -102,12 +101,12 @@ Rscript ../usr/local/bin/step1_fitNULLGLMM.R \
 * --LOCO Whether to apply the leave-one-chromosome-out (LOCO) approach when fitting the null model using the full GRM [default=TRUE].
         LOCO should be TRUE if using all chromosomes to fit the NULL model.
 
-### Step 2: Performing single-variant association tests (accounting for relatedness)
+### Step 2-A: Performing single-variant association tests (accounting for relatedness) with HARD GENOTYPES (GT)
 ```
 Rscript ../usr/local/bin/step2_SPAtests.R \
-        --bedFile=./mydata/output_data/Geno_Imputed/merged_imputed_FINAL2_maf0.01.bed \
-        --bimFile=./mydata/output_data/Geno_Imputed/merged_imputed_FINAL2_maf0.01.bim \
-        --famFile=./mydata/output_data/Geno_Imputed/merged_imputed_FINAL2_maf0.01.fam \
+        --bedFile=./mydata/output_data/Geno_Imputed/merged_imputed_FINAL2.bed \
+        --bimFile=./mydata/output_data/Geno_Imputed/merged_imputed_FINAL2.bim \
+        --famFile=./mydata/output_data/Geno_Imputed/merged_imputed_FINAL2.fam \
         --AlleleOrder=alt-first \
         --sparseGRMFile=./mydata/output_data/SAIGE/sparseGRM384.mtx \
         --sparseGRMSampleIDFile=./mydata/output_data/SAIGE/sparseGRM384_SampleIDs.txt \
@@ -123,9 +122,9 @@ Rscript ../usr/local/bin/step2_SPAtests.R \
 ```
 ```
 Rscript ../usr/local/bin/step2_SPAtests.R \
-        --bedFile=./mydata/output_data/Geno_Imputed/merged_imputed_FINAL2_maf0.05.bed \
-        --bimFile=./mydata/output_data/Geno_Imputed/merged_imputed_FINAL2_maf0.05.bim \
-        --famFile=./mydata/output_data/Geno_Imputed/merged_imputed_FINAL2_maf0.05.fam \
+        --bedFile=./mydata/output_data/Geno_Imputed/merged_imputed_FINAL2.bed \
+        --bimFile=./mydata/output_data/Geno_Imputed/merged_imputed_FINAL2.bim \
+        --famFile=./mydata/output_data/Geno_Imputed/merged_imputed_FINAL2.fam \
         --AlleleOrder=alt-first \
         --sparseGRMFile=./mydata/output_data/SAIGE/sparseGRM384.mtx \
         --sparseGRMSampleIDFile=./mydata/output_data/SAIGE/sparseGRM384_SampleIDs.txt \
@@ -137,6 +136,49 @@ Rscript ../usr/local/bin/step2_SPAtests.R \
         --pCutoffforFirth=0.05 \
         --LOCO=FALSE \
 	--SAIGEOutputFile=./mydata/output_data/SAIGE/Encephalopathy/Results/SAIGE_SVA_sparseGRM_Firth_Enceph_RESULTS_maf005.txt
+```
+### Step 2-B: Performing single-variant association tests (accounting for relatedness) with DOSAGE (DS)
+```
+for i in {1..22}
+do
+Rscript ../usr/local/bin/step2_SPAtests.R \
+        --vcfFile=./mydata/output_data/Geno_Imputed/chr$i.vcf.gz \
+        --vcfFileIndex=./mydata/output_data/Geno_Imputed/chr$i.vcf.gz.csi \
+        --vcfField=DS \
+        --chrom=$i \
+        --AlleleOrder=alt-first \
+        --sparseGRMFile=./mydata/output_data/SAIGE/sparseGRM384.mtx \
+        --sparseGRMSampleIDFile=./mydata/output_data/SAIGE/sparseGRM384_SampleIDs.txt \
+	--minMAF=0.01 \
+	--GMMATmodelFile=./mydata/output_data/SAIGE/Encephalopathy/Results/SAIGE_NullLMM_Enceph_MAF001.rda \
+	--varianceRatioFile=./mydata/output_data/SAIGE/Encephalopathy/Results/SAIGE_NullLMM_Enceph_MAF001.varianceRatio.txt \
+        --is_output_moreDetails=TRUE \
+        --is_Firth_beta=TRUE \
+        --pCutoffforFirth=0.05 \
+        --LOCO=FALSE \
+	--SAIGEOutputFile=./mydata/output_data/SAIGE/Encephalopathy/Results/SAIGE_SVA_maf001_chr$i.txt
+done
+```
+```
+for i in {1..22}
+do
+Rscript ../usr/local/bin/step2_SPAtests.R \
+        --vcfFile=./mydata/output_data/Geno_Imputed/chr$i.vcf.gz \
+        --vcfFileIndex=./mydata/output_data/Geno_Imputed/chr$i.vcf.gz.csi \
+        --vcfField=DS \
+        --chrom=$i \
+        --AlleleOrder=alt-first \
+        --sparseGRMFile=./mydata/output_data/SAIGE/sparseGRM384.mtx \
+        --sparseGRMSampleIDFile=./mydata/output_data/SAIGE/sparseGRM384_SampleIDs.txt \
+	--minMAF=0.05 \
+	--GMMATmodelFile=./mydata/output_data/SAIGE/Encephalopathy/Results/SAIGE_NullLMM_Enceph_MAF005.rda \
+	--varianceRatioFile=./mydata/output_data/SAIGE/Encephalopathy/Results/SAIGE_NullLMM_Enceph_MAF005.varianceRatio.txt \
+        --is_output_moreDetails=TRUE \
+        --is_Firth_beta=TRUE \
+        --pCutoffforFirth=0.05 \
+        --LOCO=FALSE \
+	--SAIGEOutputFile=./mydata/output_data/SAIGE/Encephalopathy/Results/SAIGE_SVA_maf005_chr$i.txt
+done
 ```
 * *For binary traits, use –is_output_moreDetails=TRUE to output heterozygous and homozygous counts as well as allele frequencies in cases and controls
       --is_Firth_beta=TRUE and --pCutoffforFirth=0.05. The effect sizes of markers with p-value <= pCutoffforFirth will be estimated through the Firth’s Bias-Reduced Logistic Regression.
@@ -171,13 +213,6 @@ Rscript ../usr/local/bin/step1_fitNULLGLMM.R \
 * 137  samples in geno file do not have phenotypes
 * 247  samples will be used for analysis 
 
-#### Create VCF files per chromosome and their .csi index files (to use in step 2)
-```
-for i in {1..23}; do plink --bfile ./output_data/Geno_Imputed/merged_imputed_FINAL2 --chr "$i" --recode vcf-iid bgz --out ./output_data/Geno_Imputed/chr"$i"; done
-
-for i in {1..23}; do tabix --csi -p vcf ./output_data/Geno_Imputed/chr$i.vcf.gz; done
-```
-
 #### Check Variant Duplicates -- Group File Issue!!!!!
 Run one chromosome at a time and take note of variants not found in VCFs [404 excel]
 1. chr10: No markers in region NRBF2 are found in the VCF file
@@ -200,8 +235,7 @@ grep '19:4792049' ./output_data/QC_postImp/QC_postImp.frq | awk '{print $2,$3,$4
 19:4792049 A G 0.003676
 Remove the one with the lowest MAF from group file (annotation also).
 
-### Step 2:  Perform region- or gene-based association tests
-
+### Step 2-A:  Perform gene-based association tests using GT
 ```
 for i in {1..22}
 do
@@ -218,7 +252,7 @@ Rscript ../usr/local/bin/step2_SPAtests.R \
         --sparseGRMFile=./mydata/output_data/SAIGE/sparseGRM384.mtx \
         --sparseGRMSampleIDFile=./mydata/output_data/SAIGE/sparseGRM384_SampleIDs.txt \
         --r.corr=0 \
-        --groupFile=./mydata/output_data/Geno_Imputed/Group_File_chr$i \
+        --groupFile=./mydata/output_data/Geno_Imputed/OLD_Group_Files/Group_File_chr$i \
         --annotation_in_groupTest="lof,missense:lof,missense:lof:synonymous" \
         --maxMAF_in_groupTest=0.5 \
         --is_output_markerList_in_groupTest=TRUE \
@@ -226,6 +260,44 @@ Rscript ../usr/local/bin/step2_SPAtests.R \
         --SAIGEOutputFile=./mydata/output_data/SAIGE/Encephalopathy/Results/SAIGE_SBA_chr$i
 done
 ```
+#### Check Variant Duplicates -- Group File Issue!!!!!
+Run one chromosome at a time and take note of variants not found in VCFs [404 excel]
+1. chr9: No markers in region GEM are found in the VCF file
+Search in Group_File_chr10 for GEM variants: 8:95272605:G:A	8:95272605:G:C
+zgrep '95272605' ./output_data/Geno_Imputed/chr8.vcf.gz | awk '{print $3,$4,$5}'
+8:95272605 G A
+8:95272605 G C
+grep '8:95272605' ./output_data/QC_postImp/QC_postImp.afreq | awk '{print $2,$3,$4,$5}'
+8:95272605 G A 0.00199972
+8:95272605 G C 0.138037
+Remove the one with the lowest MAF from group file.
+
+### Step 2-B:  Perform gene-based association tests with DOSAGE (DS)
+```
+for i in {1..22}
+do
+Rscript ../usr/local/bin/step2_SPAtests.R \
+        --vcfFile=./mydata/output_data/Geno_Imputed/chr$i.vcf.gz \
+        --vcfFileIndex=./mydata/output_data/Geno_Imputed/chr$i.vcf.gz.csi \
+        --vcfField=DS \
+        --chrom=$i \
+        --AlleleOrder=alt-first \
+        --minMAF=0 \
+        --minMAC=0.5 \
+	--GMMATmodelFile=./mydata/output_data/SAIGE/Encephalopathy/Results/SAIGE_NullLMM_Enceph_NO_MAF.rda \
+	--varianceRatioFile=./mydata/output_data/SAIGE/Encephalopathy/Results/SAIGE_NullLMM_Enceph_NO_MAF.varianceRatio.txt \
+        --sparseGRMFile=./mydata/output_data/SAIGE/sparseGRM384.mtx \
+        --sparseGRMSampleIDFile=./mydata/output_data/SAIGE/sparseGRM384_SampleIDs.txt \
+        --r.corr=0 \
+        --groupFile=./mydata/output_data/Geno_Imputed/Group_File_chr$i \
+        --annotation_in_groupTest="lof,missense:lof,missense:lof:synonymous" \
+        --maxMAF_in_groupTest=0.5 \
+        --is_output_markerList_in_groupTest=TRUE \
+        --LOCO=FALSE \
+        --SAIGEOutputFile=./mydata/output_data/SAIGE/Encephalopathy/Results/SAIGE_SBA_DS_chr$i
+done
+```
+
 * --r.corr=R.CORR
                 If r.corr = 1, only Burden tests will be performed. If r.corr = 0, SKAT-O tests will be performed and results for Burden tests and SKAT tests will be output too. [default = 0]
 * --is_output_markerList_in_groupTest=IS_OUTPUT_MARKERLIST_IN_GROUPTEST

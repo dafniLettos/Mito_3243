@@ -1,20 +1,16 @@
 # GenoIMpPGS WORKFLOW (sans Nextflow)
 
 ## Steps Summary
-0. Filter out samples with >10% missing call rates --prefix:genotypes
-1. Generate MAF, HWE P-values and Missingness using PLINK
+0. Filter out samples with >10% missing call rates --prefix:genotypes (sample filter)
+1. Generate MAF, HWE P-values and Missingness using PLINK (variant filters)
 2. Get ATCG SNP list (R script)
-3. Apply filters (PLINK): keep markers with P_hwe > 0.00000001, MAF > 0.01, Missingness < 0.03 and exclude ATCG (ambiguous) markers
+3. Apply filters: keep markers with P_hwe > 0.00000001, MAF > 0.01, Missingness < 0.03 and exclude ATCG (ambiguous) markers
 4. Convert to a single compressed vcf -- genotypes_filtered.vcf.gz
-5. Check alignment of markers to the positive strand of GRChb37
+5. Check alignment of markers to the positive strand of GRChb37 (optional)
 6. Pre-imputation data preparation (Will Rayner's Toolbox)
-7. Michigan Imputation Server (online/interactive)
-8. Post-imputation quality control
+7. Michigan Imputation Server 2 -- Download and concatenate to single vcf merged_imputed.vcf.gz
+8. Post-imputation quality control: 
 
-Convert from PLINK to VCF format (per chromosome)
-Impute genotypes using the Michigan Imputation Server
-PCA on imputed genotypes using PLINK (?)
-Calculate Polygenic Scores (pgsc_calc)
 
 ## Filter out samples with >50% missing call rates ("dummy" samples used for LD analysis)
 #### Outside project directory:
@@ -153,7 +149,7 @@ rm ./input_data/MIS_input/genotypes_filtered-updated-chr*
 * Alternative allele frequency > 0.5 sites:	27,763
 * Reference Overlap:	100.00 %
 * Match:	378,805
-* Password: ******************
+* Password: [YSha#3WfUyE6j
 -------
 * Job:	PGS3243_CHRX
 * Pipeline Version	v2.0.6
@@ -172,7 +168,7 @@ rm ./input_data/MIS_input/genotypes_filtered-updated-chr*
 * Alternative allele frequency > 0.5 sites:	631
 * Reference Overlap:	100.00 %
 * Match:	7,113
-* Password: *****************
+* Password: J>Cb5fL9MoBvk(
 -------
 
 ### Download & Unzip Files
@@ -192,27 +188,41 @@ It will ask for the password for every chromosome...
 cd ./output_data/Geno_Imputed/
 
 bcftools concat -Oz -o merged_imputed.vcf.gz chr1.dose.vcf.gz chr2.dose.vcf.gz chr3.dose.vcf.gz chr4.dose.vcf.gz chr5.dose.vcf.gz chr6.dose.vcf.gz chr7.dose.vcf.gz chr8.dose.vcf.gz chr9.dose.vcf.gz chr10.dose.vcf.gz chr11.dose.vcf.gz chr12.dose.vcf.gz chr13.dose.vcf.gz chr14.dose.vcf.gz chr15.dose.vcf.gz chr16.dose.vcf.gz chr17.dose.vcf.gz chr18.dose.vcf.gz chr19.dose.vcf.gz chr20.dose.vcf.gz chr21.dose.vcf.gz chr22.dose.vcf.gz chrX.dose.vcf.gz
+
+bcftools query -f '%POS\n' merged_imputed.vcf.gz | wc -l
+14,844,986 including chromosome X
 ```
 ### Compress files that will not be used now
 ```
+mkdir ./output_data/Geno_Imputed/MIS_output
+
 tar czf ./output_data/Geno_Imputed/EmpiricalDose_and_info_tar.gz ./output_data/Geno_Imputed/chr*.empiricalDose.* ./output_data/Geno_Imputed/chr*.info.gz
+
+tar czf ./output_data/Geno_Imputed/chr.DOSE.vcf.gz ./output_data/Geno_Imputed/chr*.dose.vcf.gz
 
 rm ./output_data/Geno_Imputed/chr*.empiricalDose.*
 rm ./output_data/Geno_Imputed/chr*.info.gz
+rm ./output_data/Geno_Imputed/chr*.dose.vcf.gz
+
+mv ./output_data/Geno_Imputed/EmpiricalDose_and_info_tar.gz ./output_data/Geno_Imputed/MIS_output
+mv ./output_data/Geno_Imputed/chr.DOSE.vcf.gz ./output_data/Geno_Imputed/MIS_output
 ```
 
 ## 8. Post-imputation QC
-#### Generate PLINK files from merged VCF
+#### Generate PLINK files from merged VCF (.pgen format to keep dosages)
 ```
-plink --vcf ./output_data/Geno_Imputed/merged_imputed.vcf.gz --make-bed --double-id --out ./output_data/Geno_Imputed/merged_imputed
+plink2 --vcf ./output_data/Geno_Imputed/merged_imputed.vcf.gz 'dosage=DS' --make-bed --not-chr X --double-id --out ./output_data/Geno_Imputed/merged_imputed
 
-14,844,986 variants
-408 people (0 males, 0 females, 408 ambiguous)
-14,844,986 variants and 408 people pass filters and QC
+plink2 --vcf ./output_data/Geno_Imputed/merged_imputed.vcf.gz 'dosage=DS' --make-pgen --not-chr X --double-id --out ./output_data/Geno_Imputed/merged_imputed
+
+14,394,184 variants
+408 samples (0 males, 0 females, 408 ambiguous)
 ```
+Only PLINK 2 offers the option of .pgen format that is the native way to store and manage dosage information.
+
 #### Generate QC Files
 ```
-plink --bfile ./output_data/Geno_Imputed/merged_imputed --freq --hardy --missing --het --ibc --out ./output_data/QC_postImp/QC_postImp
+plink2 --pfile ./output_data/Geno_Imputed/merged_imputed --freq --hardy --missing --het --out ./output_data/QC_postImp/QC_postImp
 ```
 --------------------------
 ### I. Variant-Level QC
@@ -222,10 +232,12 @@ In addition, there were no inconsistencies with the reference panel to consider,
 
 #### Apply HWE filter of 0.00000001
 ```
-plink --bfile ./output_data/Geno_Imputed/merged_imputed --hwe 0.00000001 --make-bed --out ./output_data/Geno_Imputed/merged_imputed_hwe
+plink2 --pfile ./output_data/Geno_Imputed/merged_imputed --hwe 0.00000001 --make-pgen --out ./output_data/Geno_Imputed/merged_imputed_hwe
 
---hwe: 138,218 variants removed due to Hardy-Weinberg exact test.
-14,706,768 variants and 408 people pass filters and QC.
+plink2 --bfile ./output_data/Geno_Imputed/merged_imputed --hwe 0.00000001 --make-bed --out ./output_data/Geno_Imputed/merged_imputed_hwe
+
+--hwe: 3,148 variants removed due to Hardy-Weinberg exact test (founders only).
+14,391,036 variants remaining after main filters.
 ```
 --------------------------
 ### II. Sample-Level QC
@@ -263,43 +275,99 @@ plink --bfile ./PCA/1000G_M3243 --pca --out ./PCA/1000G_M3243
 ```
 #### Note: R script should produce a txt file with the IDs to be excluded [format: famId_pID\tfamId_pID; Non_EUR_IDs.txt]. For a reason, famID==pID==famId_pID. PLINK needs 2 columns in the --remove file, so I just export the same column twice (maybe fix later)
 
-Exclude non-EUR individuals from genotype file 
+### Exclude non-EUR individuals from genotype file 
 ```
-plink --bfile ./output_data/Geno_Imputed/merged_imputed_hwe --remove ./PCA/Non_EUR_IDs_PLINK.txt --make-bed --out ./output_data/Geno_Imputed/merged_imputed_FINAL
+plink2 --pfile ./output_data/Geno_Imputed/merged_imputed_hwe --remove ./PCA/Non_EUR_IDs_PLINK.txt --make-pgen --out ./output_data/Geno_Imputed/merged_imputed_FINAL
 
-14,706,768 variants and 384 people pass filters and QC
+14,391,036 variants loaded
+384 samples remaining after filter
+
+rm ./output_data/Geno_Imputed/merged_imputed_hwe.*
 ```
-Fix Pid and Famid on genotype file
+### Fix Pid and Famid on genotype file
 ```
-plink --bfile ./output_data/Geno_Imputed/merged_imputed_FINAL --make-bed --update-ids ./input_data/IDs_updateIDs.txt -out ./output_data/Geno_Imputed/merged_imputed_FINAL2
+plink2 --pfile ./output_data/Geno_Imputed/merged_imputed_FINAL --make-pgen --update-ids ./input_data/IDs_updateIDs.txt -out ./output_data/Geno_Imputed/merged_imputed_FINAL2
 ```
 Note: The 'vcf', 'vcf-fid', and 'vcf-iid' modifiers result in production of a VCFv4.2 file. 'vcf-fid' and 'vcf-iid' cause family IDs and within-family IDs respectively to be used for the sample IDs in the last header row, while 'vcf' merges both IDs and puts an underscore between them (in this case, a warning will be given if an ID already contains an underscore).
 If the 'bgz' modifier is added, the VCF file is block-gzipped. (Gzipping of other --recode output files is not currently supported.)
 The A2 allele is saved as the reference and normally flagged as not based on a real reference genome ('PR' INFO field value). When it is important for reference alleles to be correct, you'll usually also want to include --a2-allele and --real-ref-alleles in your command.
 
-
-### III. Create extra files with MAF filters to be used where necessary
--------------------------------------------------------------------------
+### Create VCF file
 ```
-plink --bfile ./output_data/Geno_Imputed/merged_imputed_FINAL2 --make-bed --maf 0.01 --out ./output_data/Geno_Imputed/merged_imputed_FINAL2_maf0.01
+plink2 --pfile ./output_data/Geno_Imputed/merged_imputed_FINAL2 --pgen-info
+ Variants: 14391036
+ Samples: 384
+ REF alleles are all known
+ Maximum allele count for a single variant: 2
+ Explicitly phased hardcalls present
+ Explicitly phased dosages present
 
-7,708,725 (out of 14,706,768) variants and 384 people pass filters and QC
+plink2 --pfile ./output_data/Geno_Imputed/merged_imputed_FINAL2 --export vcf-iid vcf-dosage=DS-force --out ./output_data/Geno_Imputed/merged_imputed_FINAL2
+
+384 samples
+14,391,036 variants (excluding chromosome X)
+
+bgzip ./output_data/Geno_Imputed/merged_imputed_FINAL2.vcf
+tabix --csi -p vcf ./output_data/Geno_Imputed/merged_imputed_FINAL2.vcf.gz
+```
+### Create VCF file per chromosome and their .csi index files (to use in gene burden analyses)
+```
+for i in {1..22}; do plink2 --pfile ./output_data/Geno_Imputed/merged_imputed_FINAL2 --chr "$i" --export vcf-iid vcf-dosage=DS-force bgz --out ./output_data/Geno_Imputed/chr"$i"; done
+
+// chr1: 1,115,956 variants
+// chr2: 1,239,679 variants
+// chr3: 1,035,960 variants
+// chr4: 1,049,116 variants
+// chr5: 946,248 variants
+// chr6: 939,060 variants
+// chr7: 834,866 variants
+// chr8: 828,731 variants
+// chr9: 632,018 variants
+// chr10: 725,757 variants
+// chr11: 719,012 variants
+// chr12: 677,644 variants
+// chr13: 520,248 variants
+// chr14: 466,684 variants
+// chr15: 412,413 variants
+// chr16: 446,373 variants
+// chr17: 379,053 variants
+// chr18: 406,471 variants
+// chr19: 310,862 variants
+// chr20: 320,447 variants
+// chr21: 194,387 variants
+// chr22: 190,051 variants
+
+for i in {1..22}; do tabix --csi -p vcf ./output_data/Geno_Imputed/chr$i.vcf.gz; done
+rm ./output_data/Geno_Imputed/chr*$i*.log
+```
+---------------------------------------------------------------------------------------------------------------------
+### Create extra files [.bed |.bim | .fam] with MAF filters to be used where necessary
+---------------------------------------------------------------------------------------------------------------------
+```
+plink2 --pfile ./output_data/Geno_Imputed/merged_imputed_FINAL2 --make-bed --out ./output_data/Geno_Imputed/merged_imputed_FINAL2
+
+14,391,036 (out of 14,391,036) variants remain and 384 samples
 ```
 ```
-plink --bfile ./output_data/Geno_Imputed/merged_imputed_FINAL2 --make-bed --maf 0.05 --out ./output_data/Geno_Imputed/merged_imputed_FINAL2_maf0.05
+plink2 --pfile ./output_data/Geno_Imputed/merged_imputed_FINAL2 --make-bed --maf 0.01 --out ./output_data/Geno_Imputed/merged_imputed_FINAL2_maf0.01
 
-5,411,913 (out of 14,706,768) variants and 384 people pass filters and QC
+7,716,978 (out of 14,391,036) variants remain and 384 samples
+```
+```
+plink2 --pfile ./output_data/Geno_Imputed/merged_imputed_FINAL2 --make-bed --maf 0.05 --out ./output_data/Geno_Imputed/merged_imputed_FINAL2_maf0.05
+
+5,465,115 (out of 14,391,036) variants remain and 384 samples
 ```
 ---------------------------------------------------------------------------------------------------------------------
 ### Extract variants present in chr7q22 and chr5,6 significant | suggestive linkage regions for encephalopathy and SLE
 ---------------------------------------------------------------------------------------------------------------------
 ```
 bcftools view -r 7:91468550-121468550 ./output_data/Geno_Imputed/chr7.vcf.gz > ./output_data/Geno_Imputed/CHR7q22_VARIANTS_ALL.vcf
-140,722 (wc -l) - 10 (header) = 140,712 variants in 7q22 without any MAF filter
+140,735 (wc -l) - 23 (header) = 140,712 variants in 7q22 without any MAF filter
 
 bcftools view -r 6:143863601-173863601 ./output_data/Geno_Imputed/chr6.vcf.gz > ./output_data/Geno_Imputed/CHR6reg_VARIANTS_ALL.vcf
-159,176 (wc -l) - 10 (header) = 159,166 variants in chr6 region without any MAF filter
+159,192 (wc -l) - 23 (header) = 159,169 variants in chr6 region without any MAF filter
 
 bcftools view -r 5:140749194-188279842 ./output_data/Geno_Imputed/chr5.vcf.gz > ./output_data/Geno_Imputed/CHR5reg_VARIANTS_ALL.vcf
-215,185 (wc -l) - 10 (header) = 215,175 variants in chr5 region without any MAF filter
+215,195 (wc -l) - 23 (header) = 215,172 variants in chr5 region without any MAF filter
 ```

@@ -81,7 +81,7 @@ Rscript ../usr/local/bin/step1_fitNULLGLMM.R \
         --IsOverwriteVarianceRatioFile=TRUE
 ```
 
-### Step 2: Performing single-variant association tests (accounting for relatedness)
+### Step 2-A: Performing single-variant association tests (accounting for relatedness) with HARD GENOTYPES (GT)
 ```
 Rscript ../usr/local/bin/step2_SPAtests.R \
         --bedFile=./mydata/output_data/Geno_Imputed/merged_imputed_FINAL2_maf0.01.bed \
@@ -117,6 +117,49 @@ Rscript ../usr/local/bin/step2_SPAtests.R \
         --LOCO=FALSE \
 	--SAIGEOutputFile=./mydata/output_data/SAIGE/SLE/Results/SAIGE_SVA_sparseGRM_Firth_SLE_RESULTS_maf005.txt
 ```
+### Step 2-B: Performing single-variant association tests (accounting for relatedness) with DOSAGE (DS)
+```
+for i in {1..22}
+do
+Rscript ../usr/local/bin/step2_SPAtests.R \
+        --vcfFile=./mydata/output_data/Geno_Imputed/chr$i.vcf.gz \
+        --vcfFileIndex=./mydata/output_data/Geno_Imputed/chr$i.vcf.gz.csi \
+        --vcfField=DS \
+        --chrom=$i \
+        --AlleleOrder=alt-first \
+        --sparseGRMFile=./mydata/output_data/SAIGE/sparseGRM384.mtx \
+        --sparseGRMSampleIDFile=./mydata/output_data/SAIGE/sparseGRM384_SampleIDs.txt \
+	--minMAF=0.01 \
+	--GMMATmodelFile=./mydata/output_data/SAIGE/SLE/Results/SAIGE_NullLMM_SLE_MAF001.rda \
+	--varianceRatioFile=./mydata/output_data/SAIGE/SLE/Results/SAIGE_NullLMM_SLE_MAF001.varianceRatio.txt \
+        --is_output_moreDetails=TRUE \
+        --is_Firth_beta=TRUE \
+        --pCutoffforFirth=0.05 \
+        --LOCO=FALSE \
+	--SAIGEOutputFile=./mydata/output_data/SAIGE/SLE/Results/SAIGE_SVA_maf001_chr$i.txt
+done
+```
+```
+for i in {1..22}
+do
+Rscript ../usr/local/bin/step2_SPAtests.R \
+        --vcfFile=./mydata/output_data/Geno_Imputed/chr$i.vcf.gz \
+        --vcfFileIndex=./mydata/output_data/Geno_Imputed/chr$i.vcf.gz.csi \
+        --vcfField=DS \
+        --chrom=$i \
+        --AlleleOrder=alt-first \
+        --sparseGRMFile=./mydata/output_data/SAIGE/sparseGRM384.mtx \
+        --sparseGRMSampleIDFile=./mydata/output_data/SAIGE/sparseGRM384_SampleIDs.txt \
+	--minMAF=0.05 \
+	--GMMATmodelFile=./mydata/output_data/SAIGE/SLE/Results/SAIGE_NullLMM_SLE_MAF005.rda \
+	--varianceRatioFile=./mydata/output_data/SAIGE/SLE/Results/SAIGE_NullLMM_SLE_MAF005.varianceRatio.txt \
+        --is_output_moreDetails=TRUE \
+        --is_Firth_beta=TRUE \
+        --pCutoffforFirth=0.05 \
+        --LOCO=FALSE \
+	--SAIGEOutputFile=./mydata/output_data/SAIGE/SLE/Results/SAIGE_SVA_maf005_chr$i.txt
+done
+```
 ---------------------
 ## SET-BASED TEST
 ### Step 1: Fitting the null logistic/linear mixed model [no MAF cut-off]
@@ -137,15 +180,7 @@ Rscript ../usr/local/bin/step1_fitNULLGLMM.R \
         --IsOverwriteVarianceRatioFile=TRUE
 ```
 
-#### Create VCF files per chromosome and their .csi index files (to use in step 2)
-```
-for i in {1..23}; do plink --bfile ./output_data/Geno_Imputed/merged_imputed_FINAL2 --chr "$i" --recode vcf-iid bgz --out ./output_data/Geno_Imputed/chr"$i"; done
-
-for i in {1..23}; do tabix --csi -p vcf ./output_data/Geno_Imputed/chr$i.vcf.gz; done
-```
-
-### Step 2:  Perform region- or gene-based association tests
-
+### Step 2-A:  Perform gene-based association tests using GT
 ```
 for i in {1..22}
 do
@@ -168,5 +203,31 @@ Rscript ../usr/local/bin/step2_SPAtests.R \
         --is_output_markerList_in_groupTest=TRUE \
         --LOCO=FALSE \
         --SAIGEOutputFile=./mydata/output_data/SAIGE/SLE/Results/SAIGE_SBA_chr$i
+done
+```
+
+### Step 2-B:  Perform gene-based association tests with DOSAGE (DS)
+```
+for i in {1..22}
+do
+Rscript ../usr/local/bin/step2_SPAtests.R \
+        --vcfFile=./mydata/output_data/Geno_Imputed/chr$i.vcf.gz \
+        --vcfFileIndex=./mydata/output_data/Geno_Imputed/chr$i.vcf.gz.csi \
+        --vcfField=DS \
+        --chrom=$i \
+        --AlleleOrder=alt-first \
+        --minMAF=0 \
+        --minMAC=0.5 \
+	--GMMATmodelFile=./mydata/output_data/SAIGE/SLE/Results/SAIGE_NullLMM_SLE_NO_MAF.rda \
+	--varianceRatioFile=./mydata/output_data/SAIGE/SLE/Results/SAIGE_NullLMM_SLE_NO_MAF.varianceRatio.txt \
+        --sparseGRMFile=./mydata/output_data/SAIGE/sparseGRM384.mtx \
+        --sparseGRMSampleIDFile=./mydata/output_data/SAIGE/sparseGRM384_SampleIDs.txt \
+        --r.corr=0 \
+        --groupFile=./mydata/output_data/Geno_Imputed/Group_File_chr$i \
+        --annotation_in_groupTest="lof,missense:lof,missense:lof:synonymous" \
+        --maxMAF_in_groupTest=0.5 \
+        --is_output_markerList_in_groupTest=TRUE \
+        --LOCO=FALSE \
+        --SAIGEOutputFile=./mydata/output_data/SAIGE/SLE/Results/SAIGE_SBA_DS_chr$i
 done
 ```

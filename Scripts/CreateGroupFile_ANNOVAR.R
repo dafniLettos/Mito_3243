@@ -1,5 +1,4 @@
-setwd("/home/c0091724/Desktop/PostDoc/GenoIMpPGS/")
-
+setwd("/home/c0091724/Desktop/PostDoc/Mito_3243/")
 library(optparse)
 library(data.table)
 library(methods)
@@ -13,8 +12,10 @@ combineList = c(missenseList, synonymousList, lofList)
 combineList = unique(combineList)
 
 # MY IMPUTED GENOTYPES + FILTERS
-Data1 = data.table::fread("./output_data/Geno_Imputed/merged_imputed.hg19_multianno.csv",sep=",")
+Data1 = data.table::fread("./output_data/Geno_Imputed/merged_imputed_FINAL2.hg19_multianno.csv",sep=",")
+# 14,391,036 markers (ds)
 # 14,706,768 markers
+
 
 # SARAH'S IMPUTED GENOTYPES + FILTERS
 #Data1 = data.table::fread("./output_data/Encephalopathy_Sarah_Rep/merged_imputed.hg19_multianno.csv",sep=",")
@@ -32,10 +33,12 @@ Data1$Other = paste0(Data1$Chr,":", Data1$Start, ":", Data1$Ref, ":", Data1$Alt)
 Data1 = Data1[,c("Gene.refGene", "ExonicFunc.refGene", "Other", "Func.refGene", "Start", "Chr")]
 Data1$Chr = paste0("chr",Data1$Chr)
 Data1 = Data1[which((Data1$ExonicFunc.refGene %in% combineList) | (Data1$Func.refGene  %in% combineList )), , drop=F]
+# 119,695 [ds]
 # [52,931 rows OLD]  119,726 rows
 # 53,883 from Sarah's
 # 127,644 from Sarah's (no filters)
 rowswithDupGeneNames =  grep(";", Data1$Gene.refGene)
+# 45 [ds]
 # [22 OLD] 45
 # 23 from Sarah's
 # 48 from Sarah's (no filters)
@@ -61,6 +64,7 @@ Data2$Group[which((Data2$ExonicFunc.refGene %in% lofList) | (Data2$Func.refGene 
 Data2$Group[which(Data2$ExonicFunc.refGene %in% missenseList)] = "missense"
 Data2$Group[which(Data2$ExonicFunc.refGene %in% synonymousList)] = "synonymous"
 geneList = unique(Data2$Gene.refGene)
+# 16,873 [ds]
 # [14,082 genes OLD] 16,875
 # 14,169 genes from Sarah's
 # 17,047 genes from Sarah's (no filters)
@@ -80,7 +84,6 @@ write.table(Data2, file="./output_data/Geno_Imputed/GroupFile_ALL_temp.txt", row
 DATA <- list()
 for(i in 1:22){DATA[[i]] <- subset(Data2, subset=(Chr==paste0("chr",i)))}
 
-#gene <- "NOC2L"
 for(i in 1:22){
 for(gene in unique(DATA[[i]]$Gene.refGene)){
     rowHeaderData = cbind(rep(gene,2), c("var", "anno"))

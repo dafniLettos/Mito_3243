@@ -95,7 +95,7 @@ which(is.na(covariates_enceph$het))
 # [1] 14 145 146 171 243 --- 5 missing values
 ids_missing_pheno <- covariates_enceph[c(which(is.na(covariates_enceph$encephalopathy_age)),which(is.na(covariates_enceph$het))),1]
 # SO REALLY, ALTHOUGH SAIGE CAN HANDLE NAs IN THE PHENOTYPE FILE, THESE SAMPLES WILL BE IGNORED.
-# SO, THE GWAS WILL BE BASED ON 348 SAMPLES:
+# SO, THE GWAS WILL BE BASED ON 247 SAMPLES:
 nrow(subset(covariates_enceph, subset=(pid%!in%ids_missing_pheno & encephalopathy==1)))
 # 49 CASES
 nrow(subset(covariates_enceph, subset=(pid%!in%ids_missing_pheno & encephalopathy==0)))

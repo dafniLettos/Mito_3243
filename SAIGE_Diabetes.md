@@ -41,39 +41,46 @@ Rscript ../usr/local/bin/step1_fitNULLGLMM.R \
 
 ### Perform single-variant association tests
 ```
+for i in {1..22}
+do
 Rscript ../usr/local/bin/step2_SPAtests.R \
-        --bedFile=./mydata/output_data/Geno_Imputed/merged_imputed_FINAL2_maf0.01.bed \
-        --bimFile=./mydata/output_data/Geno_Imputed/merged_imputed_FINAL2_maf0.01.bim \
-        --famFile=./mydata/output_data/Geno_Imputed/merged_imputed_FINAL2_maf0.01.fam \
+        --vcfFile=./mydata/output_data/Geno_Imputed/chr$i.vcf.gz \
+        --vcfFileIndex=./mydata/output_data/Geno_Imputed/chr$i.vcf.gz.csi \
+        --vcfField=DS \
+        --chrom=$i \
         --AlleleOrder=alt-first \
         --sparseGRMFile=./mydata/output_data/SAIGE/sparseGRM384.mtx \
         --sparseGRMSampleIDFile=./mydata/output_data/SAIGE/sparseGRM384_SampleIDs.txt \
-	    --minMAF=0.01 \
-	    --GMMATmodelFile=./mydata/output_data/SAIGE/Diabetes/Results/SAIGE_NullLMM_Diabetes_MAF001.rda \
-	    --varianceRatioFile=./mydata/output_data/SAIGE/Diabetes/Results/SAIGE_NullLMM_Diabetes_MAF001.varianceRatio.txt \
+	--minMAF=0.01 \
+	--GMMATmodelFile=./mydata/output_data/SAIGE/Diabetes/Results/SAIGE_NullLMM_Diabetes_MAF001.rda \
+	--varianceRatioFile=./mydata/output_data/SAIGE/Diabetes/Results/SAIGE_NullLMM_Diabetes_MAF001.varianceRatio.txt \
         --is_output_moreDetails=TRUE \
         --is_Firth_beta=TRUE \
         --pCutoffforFirth=0.05 \
         --LOCO=FALSE \
-	    --SAIGEOutputFile=./mydata/output_data/SAIGE/Diabetes/Results/SAIGE_SVA_sparseGRM_Firth_Diabetes_RESULTS_maf001.txt
-
+	--SAIGEOutputFile=./mydata/output_data/SAIGE/Diabetes/Results/SAIGE_SVA_maf001_chr$i.txt
+done
 ```
 ```
+for i in {1..22}
+do
 Rscript ../usr/local/bin/step2_SPAtests.R \
-        --bedFile=./mydata/output_data/Geno_Imputed/merged_imputed_FINAL2_maf0.05.bed \
-        --bimFile=./mydata/output_data/Geno_Imputed/merged_imputed_FINAL2_maf0.05.bim \
-        --famFile=./mydata/output_data/Geno_Imputed/merged_imputed_FINAL2_maf0.05.fam \
+        --vcfFile=./mydata/output_data/Geno_Imputed/chr$i.vcf.gz \
+        --vcfFileIndex=./mydata/output_data/Geno_Imputed/chr$i.vcf.gz.csi \
+        --vcfField=DS \
+        --chrom=$i \
         --AlleleOrder=alt-first \
         --sparseGRMFile=./mydata/output_data/SAIGE/sparseGRM384.mtx \
         --sparseGRMSampleIDFile=./mydata/output_data/SAIGE/sparseGRM384_SampleIDs.txt \
-	    --minMAF=0.05 \
-	    --GMMATmodelFile=./mydata/output_data/SAIGE/Diabetes/Results/SAIGE_NullLMM_Diabetes_MAF005.rda \
-	    --varianceRatioFile=./mydata/output_data/SAIGE/Diabetes/Results/SAIGE_NullLMM_Diabetes_MAF005.varianceRatio.txt \
+	--minMAF=0.05 \
+	--GMMATmodelFile=./mydata/output_data/SAIGE/Diabetes/Results/SAIGE_NullLMM_Diabetes_MAF005.rda \
+	--varianceRatioFile=./mydata/output_data/SAIGE/Diabetes/Results/SAIGE_NullLMM_Diabetes_MAF005.varianceRatio.txt \
         --is_output_moreDetails=TRUE \
         --is_Firth_beta=TRUE \
         --pCutoffforFirth=0.05 \
         --LOCO=FALSE \
-	    --SAIGEOutputFile=./mydata/output_data/SAIGE/Diabetes/Results/SAIGE_SVA_sparseGRM_Firth_Diabetes_RESULTS_maf005.txt
+	--SAIGEOutputFile=./mydata/output_data/SAIGE/Diabetes/Results/SAIGE_SVA_maf005_chr$i.txt
+done
 ```
 ---------------------
 ## SET-BASED TEST
@@ -95,14 +102,13 @@ Rscript ../usr/local/bin/step1_fitNULLGLMM.R \
         --IsOverwriteVarianceRatioFile=TRUE
 ```
 ### Perform gene-based association tests
-
 ```
 for i in {1..22}
 do
 Rscript ../usr/local/bin/step2_SPAtests.R \
         --vcfFile=./mydata/output_data/Geno_Imputed/chr$i.vcf.gz \
         --vcfFileIndex=./mydata/output_data/Geno_Imputed/chr$i.vcf.gz.csi \
-        --vcfField=GT \
+        --vcfField=DS \
         --chrom=$i \
         --AlleleOrder=alt-first \
         --minMAF=0 \
@@ -117,6 +123,6 @@ Rscript ../usr/local/bin/step2_SPAtests.R \
         --maxMAF_in_groupTest=0.5 \
         --is_output_markerList_in_groupTest=TRUE \
         --LOCO=FALSE \
-        --SAIGEOutputFile=./mydata/output_data/SAIGE/Diabetes/Results/SAIGE_SBA_chr$i
+        --SAIGEOutputFile=./mydata/output_data/SAIGE/Diabetes/Results/SAIGE_SBA_DS_chr$i
 done
 ```

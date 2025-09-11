@@ -11,15 +11,16 @@ library("dplyr")
 `%!in%` <- Negate(`%in%`)
 
 # MISSINGNESS VS HETEROZYGOSITY PLOT
-imiss <- read.table(file="./output_data/QC_postImp/QC_postImp.imiss", header=TRUE)
-het <- read.table(file="./output_data/QC_postImp/QC_postImp.het", header=TRUE)
-QC_individuals <- cbind(het, imiss[6])
-QC_individuals$HET = (QC_individuals$N.NM. - QC_individuals$O.HOM.)/QC_individuals$N.NM.
+imiss <- read.delim(file="./output_data/QC_postImp/QC_postImp.smiss", header=TRUE)
+het <- read.delim(file="./output_data/QC_postImp/QC_postImp.het", header=TRUE)
+QC_individuals <- cbind(het, imiss[5])
+QC_individuals$HET = (QC_individuals$E.HOM. - QC_individuals$O.HOM.)/QC_individuals$E.HOM.
 # Calculate Heterozygosity Mean & SD
 het_mean <- mean(QC_individuals$HET, na.rm=TRUE)
 het_sd = sd(QC_individuals$HET, na.rm=TRUE)
-QC_individuals$label <- ifelse(QC_individuals$HET>=(het_mean+(3*het_sd))|QC_individuals$HET<=(het_mean-(3*het_sd))|QC_individuals$F_MISS>0.03,QC_individuals$IID,"")
+QC_individuals$label <- ifelse(QC_individuals$HET>=(het_mean+(3*het_sd))|QC_individuals$HET<=(het_mean-(3*het_sd))|QC_individuals$F>0.03,QC_individuals$IID,"")
 
+pdf(file = "./output_data/QC_postImp/Heterozygosity_plot.pdf",  width = 8.3, height = 5.8)
 ggplot(QC_individuals, aes(x=F_MISS, y=HET)) + theme_bw() +
   geom_point() + xlim(0,0.1) +
   xlab("Call Rate") +
@@ -29,7 +30,7 @@ ggplot(QC_individuals, aes(x=F_MISS, y=HET)) + theme_bw() +
   geom_hline(yintercept=(het_mean+(3*het_sd)), linetype="dashed", color="maroon4") +
   geom_hline(yintercept=(het_mean-(3*het_sd)), linetype="dashed", color="maroon4") +
   geom_text_repel(label=QC_individuals$label, nudge_y=0.001, nudge_x=0.001, size=4)
-
+dev.off()
 #---------------------------------------------------------------------------------------------------
 #---------------------------------------------------------------------------------------------------
 # PRINCIPAL COMPONENT ANALYSIS [vs 1000 Genomes]

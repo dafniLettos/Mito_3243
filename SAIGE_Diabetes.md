@@ -21,6 +21,13 @@ Rscript ../usr/local/bin/step1_fitNULLGLMM.R \
         --LOCO=TRUE \
         --IsOverwriteVarianceRatioFile=TRUE
 ```
+* Leave-one-chromosome-out is not applied
+* 384  samples have genotypes; formula is  diabetes~age+het+sex 
+* 341  samples have non-missing phenotypes
+* 384  samples are in the sparse GRM
+* 341  samples who have non-missing phenotypes are also in the sparse GRM
+* 43  samples in geno file do not have phenotypes
+* 341  samples will be used for analysis
 
 ```
 Rscript ../usr/local/bin/step1_fitNULLGLMM.R \

@@ -81,7 +81,7 @@ covariates_Diabetes <- subset(covariates_Diabetes, subset=(pid %!in% non_eur_ids
 sum(covariates_Diabetes$Genotype=="Yes")
 # [1] 353
 
-# ENCEPHALOPATHY SUBSET OVERVIEW
+# DIABETES SUBSET OVERVIEW
 sum((covariates_Diabetes$diabetes ==1))
 # [1] 205  CASES (148 CONTROLS)
 which(is.na(covariates_Diabetes$diabetes))

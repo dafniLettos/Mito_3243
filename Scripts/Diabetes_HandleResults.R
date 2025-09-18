@@ -61,13 +61,13 @@ qqplot_test <- function(ps, ci = 0.95) {
 #-------------------------------------------------------------------
 # Merge results per chromosome into single dataframe [MAF 0.01]
 res_ALL001 <- bind_rows(res_SVA001_DS)
-# 7,586,961 SNPs
+# 7,593,309 SNPs
 write.table(res_ALL001, file="./output_data/SAIGE/Diabetes/Results/SAIGE_SVA_DS_ALL_MAF001.txt", sep="\t", col.names=T, row.names=F, quote=F)
 hist(res_ALL001$p.value)
 
 # Merge results per chromosome into single dataframe
 res_ALL005 <- bind_rows(res_SVA005_DS)
-# 5,464,655 SNPs
+# 5,464,336 SNPs
 write.table(res_ALL005, file="./output_data/SAIGE/Diabetes/Results/SAIGE_SVA_DS_ALL_MAF005.txt", sep="\t", col.names=T, row.names=F, quote=F)
 hist(res_ALL005$p.value)
 
@@ -109,7 +109,7 @@ data_ALL005 <- res_ALL005 %>%
   summarise(chr_len=max(POS)) %>% 
   mutate(tot=cumsum(chr_len)-chr_len) %>%
   select(-chr_len) %>%
-  left_join(res_ALL001, ., by=c("CHR"="CHR")) %>%
+  left_join(res_ALL005, ., by=c("CHR"="CHR")) %>%
   arrange(CHR, POS) %>%
   mutate(POScum=POS+tot)
 ggplot(data_ALL005, aes(x = POScum, y = -log10(p.value), label=paste(MarkerID, Allele1, Allele2,sep=":"))) +
@@ -140,6 +140,6 @@ qqplot_test(res_ALL005$p.value) + theme_minimal() +
 #               Genomic inflation factor (lambda)
 #---------------------------------------------------------------------
 qchisq(1-median(res_ALL001$p.value),1)/qchisq(0.5,1)
-# [1] 1.022573
+# [1] 1.017837
 qchisq(1-median(res_ALL005$p.value),1)/qchisq(0.5,1)
-# [1] 1.017232
+# [1] 1.011649
